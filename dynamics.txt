@@ -1,21 +1,20 @@
 
-
 Introduction to dynamical modeling
 
 Jonathan Dushoff, McMaster University
 
 \url{http://lalashan.mcmaster.ca/DushoffLab}
 
-\vfill
+PRESENT \vfill
 
-2016 Summer Course on Mathematical Modeling and Analysis of 
+PRESENT 2016 Summer Course on Mathematical Modeling and Analysis of 
 Infectious Diseases
 
-\vfill
+PRESENT \vfill
 
-National Taiwan University
+PRESENT National Taiwan University
 
-\vfill
+PRESENT \vfill
 
 ----------------------------------------------------------------------
 
@@ -23,29 +22,25 @@ Goals
 
 	This lecture will:
 
-		introduce the idea of 
+		introduce the idea of dynamical modeling
+
+		give simple examples of population modeling and disease modeling
+
+		discuss different types of model approaches
 
 ----------------------------------------------------------------------
 
 Dynamic modeling connects scales
 
-BC
+PIC DBFIG 0.7 Lecture_images/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 
 	Start with rules about how things change in short time steps
 
 		Usually based on \emph{individuals}
 
-WFIG 0.45 Lecture_images/trans.jpg
-
-NC
-
 	Calculate results over longer time periods
 
 		Usually about \emph{populations}
-
-WFIG 0.6 Disease_data/ewmeas.Rout.pdf
-
-EC
 
 ----------------------------------------------------------------------
 
@@ -63,7 +58,7 @@ BC
 
 NC
 
-WFIG 0.6 Lecture_images/dandy_field.jpg
+SIDEFIG Lecture_images/dandy_field.jpg
 
 EC
 
@@ -90,7 +85,7 @@ Model result
 
 		it is \emph{multiplied} by the same amount in each step.
 
-FIG Exponential_figures/ntu.Rout-0.pdf
+REP FIG Exponential_figures/ntu.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
@@ -101,29 +96,21 @@ Scales
 
 		\emph{additive} difference:
 
+			ANS 19
+
 		\emph{multiplicative} difference:
+
+			ANS 100
 
 ----------------------------------------------------------------------
 
 Scales
 
-BC
+DOUBLEPDF Exponential_figures/ntu.Rout
 
-WIDEFIG Exponential_figures/ntu.Rout-0.pdf
+	Linear scale: 1 to 10 = 10 to 19
 
-	Linear scale
-
-	1 to 10 = 10 to 19
-
-NC
-
-WIDEFIG Exponential_figures/ntu.Rout-1.pdf
-
-	Log scale
-
-	1 to 10 = 10 to 100
-
-EC
+	Log scale: 1 to 10 = 10 to 100
 
 ----------------------------------------------------------------------
 
@@ -140,35 +127,11 @@ Exponential change
 
 Exponential decline
 
-BC
+DOUBLEFIG Exponential_figures/ntu.Rout-2.pdf Exponential_figures/ntu.Rout-3.pdf
 
-WIDEFIG Exponential_figures/ntu.Rout-2.pdf
+	Linear scale: 1 to 10 = 10 to 19
 
-	Linear scale
-
-	1 to 10 = 10 to 19
-
-NC
-
-WIDEFIG Exponential_figures/ntu.Rout-3.pdf
-
-	Log scale
-
-	1 to 10 = 10 to 100
-
-EC
-
-----------------------------------------------------------------------
-
-Time steps
-
-	Dynamic models can use
-	
-		\emph{discrete time}: we model the population at specific time points
-	
-		\emph{continuous time}: we model time smoothly
-
-	Which kind of model is the dandelion model?
+	Log scale: 1 to 10 = 10 to 100
 
 ----------------------------------------------------------------------
 
@@ -181,22 +144,34 @@ Randomness
 
 		Do we expect exactly 1/2 of a dandelion?
 
-	\emph{Deterministic models}: rules describe exactly what will happen
+	\textbf{Deterministic models}: rules describe exactly what will happen
 
-	\emph{Stochastic models}: rules describe a range of things that
+	\textbf{Stochastic models}: rules describe a range of things that
 	\emph{might} happen
 
 ----------------------------------------------------------------------
 
 Stochastic model
 
+DOUBLEFIG Exponential_figures/ntu.Rout-4.pdf Exponential_figures/ntu.Rout-5.pdf
+
+----------------------------------------------------------------------
+
+Time steps
+
 BC
 
-WIDEFIG Exponential_figures/ntu.Rout-4.pdf
+	Dynamic models can use
+	
+		\emph{discrete time}: we model the population at specific time points
+	
+		\emph{continuous time}: we model time smoothly
+
+	Which kind of model is the dandelion model?
 
 NC
 
-WIDEFIG Exponential_figures/ntu.Rout-5.pdf
+SIDEFIG Exponential_figures/ntu.Rout-0.pdf
 
 EC
 
@@ -212,7 +187,7 @@ BC
 
 NC
 
-WIDEFIG Lecture_images/violet_bacteria.jpg
+SIDEFIG Lecture_images/violet_bacteria.jpg
 
 EC
 
@@ -236,19 +211,11 @@ Bacteria
 
 Model result
 
-BC
-
-WIDEFIG Exponential_figures/growth.Rout-2.pdf 
+DOUBLEFIG Exponential_figures/growth.Rout-2.pdf  Exponential_figures/growth.Rout-3.pdf 
 
 	Population grows \emph{exponentially}
 
-NC
-
-WIDEFIG Exponential_figures/growth.Rout-3.pdf 
-
 	As long as $b>d$
-
-EC
 
 ----------------------------------------------------------------------
 
@@ -285,7 +252,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 What determines transition rates?
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	People get better independently
 
@@ -293,7 +260,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 ----------------------------------------------------------------------
 
-Conceptual modeling
+PSLIDE Conceptual modeling
 
 DIAGRAM SIR_model_family/sir.three.pdf
 
@@ -303,7 +270,7 @@ HFIG 0.6 SIR_model_family/thinker.jpg
 
 Conceptual modeling
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	What is the final result?
 
@@ -313,7 +280,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 Dynamic implementation
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	Requires assumptions about time distributions
 
@@ -328,7 +295,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 Recovery
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	Infectious people recover at \emph{per capita}
 	rate $\gamma$
@@ -341,7 +308,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 Transmission
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	Susceptible people get infected by:
 
@@ -360,7 +327,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 Another perspective on transmission
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	Infectious people infect others by:
 
@@ -387,19 +354,11 @@ DIAGRAM SIR_model_family/sirodes.const.pdf
 
 ODE implementation
 
-BC
-
-WIDEFIG SIR_simulations/burnout.plots.Rout-0.pdf
-
-	Disease starts to decline when number of susceptibles is small
-
-NC
-
-WIDEFIG SIR_simulations/burnout.plots.Rout-1.pdf
+DOUBLEPDF SIR_simulations/burnout.plots.Rout
 
 	Not everyone will get infected
 
-EC
+	Disease starts to decline when number of susceptibles is small
 
 ----------------------------------------------------------------------
 
@@ -407,7 +366,7 @@ ODE assumptions
 
 BC
 
-WFIG 0.8 SIR_model_family/stirrer.jpg
+PIC WFIG 0.8 SIR_model_family/stirrer.jpg
 
 NC
 
@@ -421,15 +380,23 @@ EC
 
 Closing the circle
 
-DIAGRAM SIR_model_family/sirs.three.pdf
+WIDEFIG SIR_model_family/sirs.three.pdf
 
-DIAGRAM SIR_model_family/sirbd.three.pdf
+	Loss of immunity
+
+----------------------------------------------------------------------
+
+RHEAD Closing the circle
+
+WIDEFIG SIR_model_family/sirbd.three.pdf
+
+	Births and deaths
 
 ----------------------------------------------------------------------
 
 Tendency to oscillate
 
-LANDFIG SIR_model_family/comp0.pdf
+PRESENT LANDFIG SIR_model_family/comp0.pdf
 
 Modeling individuals as individuals usually requires a \emph{stochastic}
 model
@@ -441,6 +408,17 @@ With individuality
 LANDFIG SIR_model_family/comp.pdf
 
 Even in the simplest form, this can cause large random oscillations even in large populations
+
+----------------------------------------------------------------------
+
+Types
+
+	\textbf{Discrete} vs.~\textbf{Continuous} time steps
+
+	\textbf{Deterministic} vs.~\textbf{Stochastic} dynamics
+
+		Stochastic models may have \textbf{Discrete individuals}
+
 
 ----------------------------------------------------------------------
 

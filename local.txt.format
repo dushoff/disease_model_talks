@@ -1,0 +1,10 @@
+# Column equalization
+
+# BC %!
+# draft final: \begin{columns}[c] \column{0.47\textwidth} \small
+
+# NC %!
+# draft final: \column{0.47\textwidth}
+
+########################################
+
