@@ -6,7 +6,6 @@ target pngtarget pdftarget vtarget acrtarget: foundations.handouts.pdf
 
 ##################################################################
 
-
 # make files
 
 Sources = Makefile .gitignore README.md stuff.mk LICENSE.md
@@ -35,9 +34,6 @@ foundations.handouts.pdf: foundations.txt
 Archive += foundations.handouts.pdf dynamics.handouts.pdf
 
 ######################################################################
-
-now:
-	@echo $@
 
 ### Makestuff
 
