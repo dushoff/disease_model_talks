@@ -1,0 +1,508 @@
+
+Heterogeneity, contact patterns and modeling options
+
+PRESENT \vfill
+
+Jonathan Dushoff, McMaster University
+
+\url{http://lalashan.mcmaster.ca/DushoffLab}
+
+PRESENT \vfill
+
+PRESENT 2016 Summer Course on Mathematical Modeling and Analysis of 
+Infectious Diseases
+
+PRESENT \vfill
+
+PRESENT National Taiwan University
+
+PRESENT \vfill
+
+----------------------------------------------------------------
+
+The resilience of infectious disease
+
+BC
+
+1967: It's time to close the book on infectious diseases
+
+PIC WFIG 0.6 htmp/smallpox.jpg
+
+NC
+
+PIC WFIG 0.6 htmp/headlines.jpg
+
+PIC WFIG 0.6 htmp/book.jpg
+
+EC
+
+--------------------------------------------------------------
+
+Pathogen evolution
+
+PIC WFIG 0.4 htmp/influenza.jpg
+
+PIC WFIG 0.4 htmp/tb.jpg
+
+----------------------------------------------------------------------
+
+Human heterogeneity
+
+PIC HFIG 0.42 htmp/maasai.jpg
+
+PIC WFIG 0.48 htmp/inuit.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Human heterogeneity
+
+WIDEFIG htmp/Lesotho_children.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Human heterogeneity
+
+HFIG 0.42 htmp/dump_workers.jpg
+
+HFIG 0.48 htmp/paris_hilton.jpg
+
+--------------------------------------------------------------
+
+SEC Homogeneous disease models
+
+----------------------------------------------------------------------
+
+Expanding our models
+
+	\textbf{Homogeneous} models assume everyone has the same:
+
+		disease characteristics (e.g. susceptibility, tendency to
+		transmit)
+
+		mixing rate
+
+		probability of mixing with each person
+
+	\textbf{Heterogeneous} models allow people to be different
+
+----------------------------------------------------------------
+
+The basic reproductive number
+
+	$\Ro$ is the number of people who would be infected by an
+	infectious individual \emph{in a fully susceptible population.}
+
+	$\Ro = \beta/\gamma = \beta D = (cp) D$
+
+		$c$: Contact Rate
+
+		$p$: Probability of transmission (infectivity)
+
+		$D$: Average duration of infection
+
+	A disease can invade a population if and only if $\Ro>1$.
+
+----------------------------------------------------------------------
+
+Equilibrium
+
+LANDFIG SIR_model_family/comp.pdf
+
+----------------------------------------------------------------------
+
+Equilibrium analysis 
+
+	$\Reffec$ is the number of people who would be infected by an
+	infectious individual \emph{in a general population.}
+
+	$\ds\Reffec =  \Ro  \frac SN = pcD \frac SN$
+
+	At equilibrium:
+		$\ds \Reffec = \Ro  \frac SN = 1. $
+
+	Thus:
+		$\ds \frac SN = 1/R_0.  $
+
+	Proportion `affected' is $V = 1-S/N = 1-1/R_0$.
+
+----------------------------------------------------------------------
+
+Homogeneous endemic curve
+
+BC
+
+CFIG curves/propCurves.Rout-0.pdf
+
+NC
+
+	Threshold value
+
+	Sharp response to changes in factors underlying transmission 
+
+	Works -- sometimes
+
+EC
+
+----------------------------------------------------------------------
+
+Proportion affected and disease prevalence
+
+	For diseases with no recovery, $V$ is the disease prevalence
+
+	For other diseases, the equilibrium value of $P=I/N$ will be equal to
+	$V$ times the ratio of time spent sick to the time spent immune.
+
+	Example: measles before vaccination
+
+		$V = 0.95$ 
+
+		$\bar P = 0.95\times(2\mathrm{wk}/60\mathrm{yr})$.
+
+----------------------------------------------------------------------
+
+PSLIDE Disease dynamics
+
+FIG SIR_simulations/hiv_plot.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Homogeneous assumptions
+
+FIG SIR_simulations/hiv_plot.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Homogeneous assumptions
+
+FIG SIR_simulations/hiv_plot.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+RHEAD Homogeneous assumptions
+
+FIG SIR_simulations/hiv_plot.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+RHEAD Homogeneous assumptions
+
+FIG SIR_simulations/hiv_plot.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+SEC The importance of heterogeneity
+
+----------------------------------------------------------------------
+
+Beyond homogeneity
+
+	Flavors of heterogeneity
+
+		among hosts
+
+		spatial
+
+		demographic (discreteness of indviduals)
+
+		temporal
+
+		others
+
+----------------------------------------------------------------------
+
+EXTRA Heterogeneity among hosts
+
+	Differences among people are pervasive, large and often correlated
+
+	We often consider transmission probability as the product of two
+	components:
+
+		The "infector" has tendency to infect $\tau$
+
+		The "recipient" has susceptibility $\sigma$
+
+	Then $\Ro = p c D = (\sigma \tau) c D$,
+
+	Why do we assume this is multiplicative?
+
+----------------------------------------------------------------------
+
+Heterogeneity in TB
+
+BC
+
+CFIG tbincome/plot.Rout.pdf
+
+NC
+
+	{\bf Progression}: Nutrition, stress
+
+	{\bf Contact}: Overcrowding, poor ventilation
+
+	{\bf Cure}: Access to medical care
+
+EC
+
+--------------------------------------------------------------------
+
+Heterogeneity in other diseases
+
+	{\bf STDs}: Sexual mixing patterns, access to medical care
+
+	{\bf Influenza}: Crowding, nutrition
+
+	{\bf Malaria}:  Attractiveness to biting insects, geographical
+	location, immune status
+
+	{\bf Every disease!}
+
+----------------------------------------------------------------------
+
+Large-scale heterogeneity
+
+PIC HFIG 0.64 htmp/schisto.png
+
+	For schistosomiasis, the worldwide average $\Ro<1$
+
+	Disease persists because of specific populations with $\Ro>1$.
+
+	This effect operates at many scales.
+
+----------------------------------------------------------------------
+
+SEC Effects of heterogeneity
+
+----------------------------------------------------------------------
+
+Equilibrium calculations
+
+	Assume $p = \sigma\tau$ has a susceptibility component and a
+	transmission component:
+
+		$\Ro = \sigma\tau c D$
+
+		$\Reffec = \sigma\tau c D S/N$
+
+----------------------------------------------------------------------
+
+Equilibrium calculations with heterogeneity
+
+	$\tau D$ applies to infectious individuals $\rightarrow \tau_I
+	D_I$
+
+	$\sigma$ applies to susceptible individuals $\rightarrow
+	\sigma_S$
+
+	$c$ is complicated $\rightarrow c_S c_I/\bar c$
+
+----------------------------------------------------------------------
+
+Example
+
+	Imagine a disease spread by people who differ only in their
+	effective mixing rates
+
+	If the disease has just started spreading in the population, how do
+	$c_S$ and $c_I$ compare to $\bar c$?
+
+		$c_S \approx \bar c$; $c_I > \bar c$.
+
+	If the disease is very widespread in the population?
+
+		$c_S < \bar c$; $c_I \to \bar c$.
+
+----------------------------------------------------------------------
+
+Simpson's paradox
+
+PIC DBFIG 0.8 htmp/farmers.jpg 0.8 htmp/senate.jpg
+
+	What happens when a peanut farmer is elected to the US Senate?
+
+	The average IQ goes up in both places!
+
+----------------------------------------------------------------------
+
+The basic reproductive number
+
+	When the disease invades:
+	
+		The susceptible population $\approx$ the general population
+
+		The infectious population is likely to have higher values of $c$,
+		$D$ and/or $\tau$
+
+	$\Ro$ is typically greater than you would expect from a homogeneous
+	model
+
+
+----------------------------------------------------------------------
+
+Equilibrium analysis
+
+	As disease prevalence goes up:
+
+		Susceptible pool is the most resistant, or least exposed group
+
+		Infectious pool moves looks more like the general population.
+
+	$\rightarrow$ lower proportion affected \emph{for a given value of
+	\Ro.}
+
+----------------------------------------------------------------------
+
+Homogeneous endemic curve
+
+FIG curves/propCurves.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Heterogeneous endemic curves
+
+FIG curves/propCurves.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+RHEAD Heterogeneous endemic curves
+
+FIG curves/propCurves.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Heterogeneity and disease
+
+BC
+
+	Heterogeneity has a double-edged effect
+
+		Effects of disease are \emph{lower} for a given value of \Ro.
+
+		But \Ro\ is \emph{higher} for given mean values of factors
+		underlying transmission
+
+NC
+
+CFIG curves/propCurves.Rout-2.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Heterogeneous endemic curves
+
+BC
+
+	Heterogeneity makes the endemic curve flatter
+
+	Disease levels are more resistant to change
+
+NC
+
+CFIG curves/propCurves.Rout-1.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+How diseases reach equilibrium 
+
+	Diseases that invade have high values of \Ro
+
+	\Reffec\ must be 1 at equilibrium
+
+		Potentially infectious contacts are wasted
+
+			Many potential contacts are not susceptible (affected by
+			disease)
+
+			Those not affected less susceptible than average
+
+		Infectious pool less infectious
+
+----------------------------------------------------------------------
+
+Spatial and network models
+
+	Individual-level, or spatial, heterogeneity also usually
+	increases wasted contacts
+
+	Infectious people meet:
+
+		people with similar social backgrounds
+
+		people with similar behaviours
+
+		people who are nearby geographically or in the contact network
+
+	More wasted contacts further flatten the endemic curve
+
+----------------------------------------------------------------------
+
+SEC Modeling approaches
+
+----------------------------------------------------------------------
+
+Phenomenological
+
+FIG htmp/phen.Rout.pdf
+
+	You can simply \emph{make} $\beta$ go down as prevalence goes up
+
+		Need to choose a functional form
+
+----------------------------------------------------------------------
+
+Multi-group models
+
+	Divide the population into groups. 
+
+		cities and villages
+
+		rich and poor
+
+		high and low sexual activity
+
+		age, gender
+
+		...
+
+----------------------------------------------------------------------
+
+Individual-based models
+
+CFIG htmp/network.png
+
+	Allow many possibilities:
+	
+		vary individual characteristics
+
+		add a network of interactions
+
+		let the network change
+
+	Individual-based approaches require stochastic models
+
+----------------------------------------------------------------------
+
+PSLIDE Summary
+
+PIC WFIG 0.4 htmp/crowd.jpg
+
+PIC DBFIG 0.8 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Summary
+
+PIC WFIG 0.32 htmp/crowd.jpg
+
+PIC DBFIG 0.64 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
+
+People are heterogeneous in many ways
+
+	\ldots and on many scales
+
+Simple models give us important qualitative insights
+
+----------------------------------------------------------------------
+

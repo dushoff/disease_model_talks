@@ -2,7 +2,7 @@
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: foundations.handouts.pdf 
+target pngtarget pdftarget vtarget acrtarget: heterogeneity.draft.pdf 
 
 ##################################################################
 
@@ -30,6 +30,10 @@ dynamics.handouts.pdf: dynamics.txt
 ### Dynamical foundations lecture debut NTU 2016
 foundations.draft.pdf: foundations.txt
 foundations.handouts.pdf: foundations.txt
+
+### Heterogeneity
+heterogeneity.draft.pdf: heterogeneity.txt
+heterogeneity.handouts.pdf: heterogeneity.txt
 
 Archive += foundations.handouts.pdf dynamics.handouts.pdf
 
