@@ -80,10 +80,21 @@ A more realistic model of population growth
 
 	$\ds \frac{dN}{dt} = (b_0 \exp(-N/N_b) - d)N$
 
-	\emph{We don't want to solve this equation!}
+----------------------------------------------------------------------
+
+PSLIDE A model of population growth
+
+FIG Birth_death_models/birth.bd.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
+RHEAD A model of population growth
+
+	PRESENT $\ds \frac{dN}{dt} = (b_0 \exp(-N/N_b) - d)N$
+
+	\emph{We don't want to solve this equation!}
+
+----------------------------------------------------------------------
 
 What can we do instead?
 
@@ -138,6 +149,12 @@ FIG Birth_death_models/birth.bd.Rout-1.pdf
 What will this model do?
 
 FIG Birth_death_models/birth.bd.Rout-9.pdf
+
+----------------------------------------------------------------------
+
+RSLIDE Computer simulation
+
+FIG Birth_death_models/birth.bd.Rout-3.pdf
 
 ----------------------------------------------------------------------
 

@@ -2,7 +2,7 @@
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: heterogeneity.draft.pdf 
+target pngtarget pdftarget vtarget acrtarget: foundations.draft.pdf 
 
 ##################################################################
 
@@ -24,10 +24,12 @@ Sources += copy.tex
 Sources += $(wildcard *.txt)
 
 ### Dynamical models lecture debut NTU 2016
+dynamics.final.pdf: dynamics.txt
 dynamics.draft.pdf: dynamics.txt
 dynamics.handouts.pdf: dynamics.txt
 
 ### Dynamical foundations lecture debut NTU 2016
+foundations.final.pdf: foundations.txt
 foundations.draft.pdf: foundations.txt
 foundations.handouts.pdf: foundations.txt
 
@@ -36,6 +38,7 @@ heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt
 
 Archive += foundations.handouts.pdf dynamics.handouts.pdf
+Archive += foundations.final.pdf dynamics.final.pdf
 
 ######################################################################
 

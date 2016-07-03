@@ -66,6 +66,8 @@ EC
 
 Model worlds
 
+BC
+
 	A dynamic model is based on a model world
 
 	The model world has \emph{enough} assumptions to allow us to calculate
@@ -75,6 +77,12 @@ Model worlds
 
 	Essentially, all models are wrong, but some are useful.  -- Box and
 	Draper (1987), \emph{Empirical Model Building \ldots}
+
+NC
+
+SIDEFIG Lecture_images/flat.png
+
+EC
 
 ----------------------------------------------------------------------
 
