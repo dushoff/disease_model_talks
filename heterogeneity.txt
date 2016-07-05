@@ -127,7 +127,7 @@ Equilibrium analysis
 
 ----------------------------------------------------------------------
 
-Homogeneous endemic curve
+RHEAD Homogeneous endemic curve
 
 BC
 
@@ -351,13 +351,13 @@ Equilibrium analysis
 
 ----------------------------------------------------------------------
 
-Homogeneous endemic curve
+RSLIDE Homogeneous endemic curve
 
 FIG curves/propCurves.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-Heterogeneous endemic curves
+RHEAD Heterogeneous endemic curves
 
 FIG curves/propCurves.Rout-2.pdf
 
@@ -382,7 +382,7 @@ BC
 
 NC
 
-CFIG curves/propCurves.Rout-2.pdf
+SIDEFIG curves/propCurves.Rout-2.pdf
 
 EC
 
@@ -398,7 +398,7 @@ BC
 
 NC
 
-CFIG curves/propCurves.Rout-1.pdf
+SIDEFIG curves/propCurves.Rout-1.pdf
 
 EC
 
