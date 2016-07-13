@@ -1,8 +1,10 @@
 # disease_model_talks
+### Started in Taiwan 2016. Meant to unify different existing talk frameworks
+
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: confront.handouts.pdf 
+target pngtarget pdftarget vtarget acrtarget: foundations.draft.pdf 
 
 ##################################################################
 
