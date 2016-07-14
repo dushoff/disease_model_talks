@@ -4,7 +4,7 @@
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: foundations.draft.pdf 
+target pngtarget pdftarget vtarget acrtarget: confront.draft.pdf 
 
 ##################################################################
 
@@ -41,6 +41,7 @@ Archive += foundations.handouts.pdf foundations.draft.pdf
 
 ### Heterogeneity
 ### NTU 2016-3
+heterogeneity.final.pdf: heterogeneity.txt
 heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt
 Archive += heterogeneity.handouts.pdf heterogeneity.draft.pdf

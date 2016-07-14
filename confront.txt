@@ -76,6 +76,12 @@ FIG HIV_model_data/Diagram2.png
 
 ----------------------------------------------------------------------
 
+Realistic time distributions
+
+FIG Lecture_images/boxcars.jpg
+
+----------------------------------------------------------------------
+
 WIDEFIG HIV_model_data/Diagram3.png
 
 ----------------------------------------------------------------------
