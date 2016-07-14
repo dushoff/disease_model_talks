@@ -12,7 +12,7 @@ target pngtarget pdftarget vtarget acrtarget: foundations.draft.pdf
 
 Sources = Makefile .gitignore README.md stuff.mk LICENSE.md
 include stuff.mk
-include $(ms)/newtalk.def
+-include $(ms)/newtalk.def
 
 ##################################################################
 
