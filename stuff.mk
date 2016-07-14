@@ -8,11 +8,8 @@ Drop = ~/Dropbox
 export ms = $(gitroot)/makestuff
 -include $(ms)/os.mk
 
-Makefile: $(ms) $(subdirs)
-
-$(gitroot):
-	mkdir $@
+Makefile: $(ms)
 
 $(ms):
-	$(MAKE) $(gitroot)
+	mkdir $(gitroot)
 	cd $(dir $(ms)) && git clone $(msrepo)/$(notdir $(ms)).git
