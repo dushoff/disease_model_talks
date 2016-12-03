@@ -27,30 +27,32 @@ Sources += $(wildcard *.txt)
 
 ### Dynamical models lecture debut NTU 2016
 ### NTU 2016-1
+### Related to the SIR model family lectures
 dynamics.final.pdf: dynamics.txt
 dynamics.draft.pdf: dynamics.txt
 dynamics.handouts.pdf: dynamics.txt
-Archive += dynamics.handouts.pdf dynamics.draft.pdf
+
+archive += dynamics.handouts.pdf dynamics.draft.pdf
 
 ### Dynamical foundations lecture debut NTU 2016
 ### NTU 2016-2
 foundations.final.pdf: foundations.txt
 foundations.draft.pdf: foundations.txt
 foundations.handouts.pdf: foundations.txt
-Archive += foundations.handouts.pdf foundations.draft.pdf
+archive += foundations.handouts.pdf foundations.draft.pdf
 
 ### Heterogeneity
 ### NTU 2016-3
 heterogeneity.final.pdf: heterogeneity.txt
 heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt
-Archive += heterogeneity.handouts.pdf heterogeneity.draft.pdf
+archive += heterogeneity.handouts.pdf heterogeneity.draft.pdf
 
 ### Fitting (Williams/Hargrove/Pulliam)
 ### NTU 2016-4
 confront.draft.pdf: confront.txt
 confront.handouts.pdf: confront.txt
-Archive += confront.handouts.pdf confront.draft.pdf
+archive += confront.handouts.pdf confront.draft.pdf
 
 ### Tracking
 
