@@ -1,4 +1,9 @@
 * What is going on with curves/? Seems pulled in haste from WW! What did I used to do (SIR model family? Hetero?)
 
-* Does subclone (etc.) work?
+* Update exercise page (can it be found?)
 
+* Link to hot version of family.draft.pdf
+
+* Always: testdir …
+
+* After DAIDD: tag, release, and re-link
