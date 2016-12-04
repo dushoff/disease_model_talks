@@ -10,7 +10,7 @@ target pngtarget pdftarget vtarget acrtarget: foundations.draft.pdf
 
 # make files
 
-Sources = Makefile .gitignore README.md stuff.mk LICENSE.md
+Sources = Makefile .gitignore README.md stuff.mk LICENSE.md notes.txt
 include stuff.mk
 -include $(ms)/newtalk.def
 
@@ -53,6 +53,8 @@ archive += heterogeneity.handouts.pdf heterogeneity.draft.pdf
 confront.draft.pdf: confront.txt
 confront.handouts.pdf: confront.txt
 archive += confront.handouts.pdf confront.draft.pdf
+
+gp: $(archive:%=%.gp)
 
 ### Tracking
 

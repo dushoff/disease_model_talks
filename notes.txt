@@ -1,0 +1,3 @@
+* What is going on with curves/? Seems pulled in haste from WW! What did I used to do (SIR model family? Hetero?)
+
+* Does subclone (etc.) work?
