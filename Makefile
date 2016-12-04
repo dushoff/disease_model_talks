@@ -4,7 +4,7 @@
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: foundations.draft.pdf 
+target pngtarget pdftarget vtarget acrtarget: family.draft.pdf 
 
 ##################################################################
 # make files
@@ -30,6 +30,11 @@ Sources += $(wildcard *.txt)
 dynamics.final.pdf: dynamics.txt
 dynamics.draft.pdf: dynamics.txt
 dynamics.handouts.pdf: dynamics.txt
+
+### Not clear whether to merge dynamics with family
+family.draft.pdf: family.txt
+
+##################################################################
 
 archive += dynamics.handouts.pdf dynamics.draft.pdf
 

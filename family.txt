@@ -1,0 +1,310 @@
+
+The SIR Model Family
+
+\vfill
+
+Jonathan Dushoff, McMaster University
+
+\url{http://lalashan.mcmaster.ca/DushoffLab}
+
+\vfill
+
+DAIDD 2016
+
+\url{http://www.ici3d.org/daidd/}
+
+\vfill
+
+----------------------------------------------------------------------
+
+Dynamic modeling connects scales
+
+PIC DBFIG 0.7 Lecture_images/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+
+	Start with rules about how things change in short time steps
+
+		Usually based on \emph{individuals}
+
+----------------------------------------------------------------------
+
+Compartmental models
+
+SUBH Divide people into categories:
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+	Susceptible $\to$ Infectious $\to$ Recovered
+
+----------------------------------------------------------------------
+
+What determines transition rates?
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+	People get better independently
+
+	People get infected by infectious people
+
+----------------------------------------------------------------------
+
+Conceptual modeling
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+HFIG 0.6 SIR_model_family/thinker.jpg
+
+----------------------------------------------------------------------
+
+Conceptual modeling
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+	What is the final result?
+
+	When does disease increase, decrease?
+
+----------------------------------------------------------------------
+
+Dynamic implementation
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+	Requires assumptions about recovery and transmission
+
+	The \emph{conceptually simplest} implementation uses
+	Ordinary Differential Equations (ODEs)
+
+		Other options may be more realistic
+
+		Or simpler in practice
+
+----------------------------------------------------------------------
+
+Recovery
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+	Infectious people recover at \emph{per capita}
+	rate $\gamma$
+
+		Total recovery rate is $\gamma I$
+
+		Mean time infectious is $D = 1/\gamma$
+
+----------------------------------------------------------------------
+
+Transmission
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+	Susceptible people get infected by:
+
+		Going around and contacting people (rate $c$)
+
+		Some of these people are infectious (proportion $I/N$)
+
+		Some of these contacts are effective (proportion $p$)
+
+	Per capita rate of becoming infected is $c p I/N \equiv \beta
+	I/N$
+
+	Population-level transmission rate is ${\cal T} = \beta SI/N$
+
+----------------------------------------------------------------------
+
+Another perspective on transmission
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+	Infectious people infect others by:
+
+		Going around and contacting people (rate $c$)
+
+		Some of these people are susceptible (proportion $S/N$)
+
+		Some of these contacts are effective (proportion $p$)
+
+	Per capita rate of infecting others is $c p S/N \equiv \beta
+	S/N$
+
+	Population-level transmission rate is ${\cal T} = \beta SI/N$
+
+----------------------------------------------------------------------
+
+ODE implementation
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+DIAGRAM SIR_model_family/sirodes.const.pdf
+
+----------------------------------------------------------------------
+
+Spreadsheet implementation
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+\url{http://tinyurl.com/SIR-DAIDD-2016}
+
+----------------------------------------------------------------------
+
+ODE assumptions
+
+BC
+
+PIC WFIG 0.8 SIR_model_family/stirrer.jpg
+
+NC
+
+	Lots and lots of people
+
+	Perfectly mixed
+
+EC
+
+----------------------------------------------------------------------
+
+ODE assumptions
+
+DBFIG 0.8 SIR_model_family/exp.Rout-0.pdf 0.8 SIR_model_family/exp.Rout-1.pdf
+
+	Waiting times are exponentially distributed
+
+	Rarely realistic
+
+----------------------------------------------------------------------
+
+Scripts vs.\ spreadsheets
+
+DBFIG 0.7 SIR_model_family/gd.png 0.8 SIR_model_family/R.png
+
+----------------------------------------------------------------------
+
+More about transmission
+
+BC
+
+SIDEFIG Lecture_images/trans.jpg
+
+NC
+
+	$\beta = pc$
+
+		What is a contact?
+
+		What is the probability of transmission?
+
+	Sometimes this decomposition is clear
+
+	But usually it's not
+
+EC
+
+----------------------------------------------------------------------
+
+Population sizes
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+DIAGRAM SIR_model_family/sirodes.const.pdf
+
+----------------------------------------------------------------------
+
+Population sizes
+
+DIAGRAM SIR_model_family/sir.three.pdf
+
+DIAGRAM SIR_model_family/sirodes.pdf
+
+----------------------------------------------------------------------
+
+FIG SIR_model_family/beta.Rout-0.pdf
+
+	$\beta(N) = \beta_0$
+
+	${\cal T} = \frac{\beta_0 SI}{N}$
+
+	Also known as \emph{frequency-dependent} transmission
+
+----------------------------------------------------------------------
+
+FIG SIR_model_family/beta.Rout-1.pdf
+
+	$\beta(N) = \beta_1 N$
+
+	${\cal T} = \beta_1 SI$
+
+	Also known as \emph{density-dependent} transmission
+
+----------------------------------------------------------------------
+
+FIG SIR_model_family/beta.Rout-3.pdf
+
+	May not go to zero when $N$ does
+
+	May not go to $\infty$ when $N$ does
+
+----------------------------------------------------------------------
+
+Digression -- units
+
+	${\cal T} = \beta SI/N: [\mathrm{ppl}/\mathrm{time}]$
+
+	$\beta: [1/\mathrm{time}]$
+
+		$\beta/\gamma = \beta D: [1]$
+
+		Standard incidence, $\beta_0: [1/\mathrm{time}]$
+
+		Mass-action incidence, $\beta_1: [1/(\mathrm{people} \cdot \mathrm{time})]$
+
+----------------------------------------------------------------------
+
+Closing the circle
+
+DIAGRAM SIR_model_family/sirs.three.pdf
+
+DIAGRAM SIR_model_family/sirbd.three.pdf
+
+----------------------------------------------------------------------
+
+Tendency to oscillate
+
+PRESENT LANDFIG SIR_model_family/comp0.pdf
+
+----------------------------------------------------------------------
+
+With individuality
+
+PRESENT LANDFIG SIR_model_family/comp.pdf
+
+----------------------------------------------------------------------
+
+Summary
+
+	Dynamics are an essential tool to link scales
+
+	Very simple models can provide useful insights
+
+	More complex models can provide more detail, but also require more
+	assumptions, and more choices
+
+----------------------------------------------------------------------
+
+Conclusions from simple models
+
+	There is a link between individual-level processes and population-level
+	outcomes
+
+	The reproductive number (number of cases per case) is a key quantity
+
+		Disease increases when $\Rx>1$
+
+		Decreases when $\Rx<1$
+
+	Oscillation
+
+		If susceptibles are replenished, diseases have a tendency to oscillate
+
+		These oscillations tend to be damped (get smaller through time)
+
+	These conclusions from \textbf{simple} models help \emph{guide} our understanding of more complicated models
