@@ -7,7 +7,6 @@ current: target
 target pngtarget pdftarget vtarget acrtarget: foundations.draft.pdf 
 
 ##################################################################
-
 # make files
 
 Sources = Makefile .gitignore README.md stuff.mk LICENSE.md notes.txt

@@ -1,3 +1,17 @@
+
+*/*
+
+beamer.tmp
+commit.time
+
+*.nav
+*.snm
+*.draft.tex
+*.final.tex
+*.deps
+*.toc
+*.handouts.tex
+
 commit.txt
 .*.sw*
 
@@ -18,9 +32,5 @@ commit.txt
 *.wrapR.*
 
 local.mk
-
-testdir/
-.testdir/
-subclone_dir/
 
 *.makestuff
