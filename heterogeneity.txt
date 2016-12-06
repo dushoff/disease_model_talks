@@ -1,22 +1,30 @@
 
+NOSLIDE To do:
+
+Clean up htmp stuff
+
+----------------------------------------------------------------------
+
 Heterogeneity, contact patterns and modeling options
 
-PRESENT \vfill
+\begin{center}
+
+\vfill
+\vfill
 
 Jonathan Dushoff, McMaster University
 
 \url{http://lalashan.mcmaster.ca/DushoffLab}
 
-PRESENT \vfill
+\vfill
 
-PRESENT 2016 Summer Course on Mathematical Modeling and Analysis of 
-Infectious Diseases
+DAIDD 2016
 
-PRESENT \vfill
+\url{http://www.ici3d.org/daidd/}
 
-PRESENT National Taiwan University
+\vfill
 
-PRESENT \vfill
+\end{center}
 
 ----------------------------------------------------------------
 
@@ -26,13 +34,13 @@ BC
 
 1967: It's time to close the book on infectious diseases
 
-PIC WFIG 0.6 htmp/smallpox.jpg
+PIC WFIG 0.6 Lecture_images/smallpox.jpg
 
 NC
 
-PIC WFIG 0.6 htmp/headlines.jpg
+PIC WFIG 0.6 Lecture_images/headlines.jpg
 
-PIC WFIG 0.6 htmp/book.jpg
+PIC WFIG 0.6 Lecture_images/book.jpg
 
 EC
 
@@ -40,31 +48,31 @@ EC
 
 Pathogen evolution
 
-PIC WFIG 0.4 htmp/influenza.jpg
+PIC WFIG 0.4 Lecture_images/influenza.jpg
 
-PIC WFIG 0.4 htmp/tb.jpg
+PIC WFIG 0.4 Lecture_images/tb.jpg
 
 ----------------------------------------------------------------------
 
 Human heterogeneity
 
-PIC HFIG 0.42 htmp/maasai.jpg
+PIC HFIG 0.42 Lecture_images/maasai.jpg
 
-PIC WFIG 0.48 htmp/inuit.jpg
-
-----------------------------------------------------------------------
-
-PSLIDE Human heterogeneity
-
-WIDEFIG htmp/Lesotho_children.jpg
+PIC WFIG 0.48 Lecture_images/inuit.jpg
 
 ----------------------------------------------------------------------
 
 PSLIDE Human heterogeneity
 
-HFIG 0.42 htmp/dump_workers.jpg
+WIDEFIG Lecture_images/Lesotho_children.jpg
 
-HFIG 0.48 htmp/paris_hilton.jpg
+----------------------------------------------------------------------
+
+PSLIDE Human heterogeneity
+
+HFIG 0.42 Lecture_images/dump_workers.jpg
+
+HFIG 0.48 Lecture_images/bento.jpg
 
 --------------------------------------------------------------
 
@@ -260,7 +268,7 @@ Heterogeneity in other diseases
 
 Large-scale heterogeneity
 
-PIC HFIG 0.64 htmp/schisto.png
+PIC HFIG 0.64 Lecture_images/schisto.png
 
 	For schistosomiasis, the worldwide average $\Ro<1$
 
@@ -315,7 +323,7 @@ Example
 
 Simpson's paradox
 
-PIC DBFIG 0.8 htmp/farmers.jpg 0.8 htmp/senate.jpg
+PIC DBFIG 0.8 Lecture_images/farmers.jpg 0.8 htmp/senate.jpg
 
 	What happens when a peanut farmer is elected to the US Senate?
 
@@ -486,7 +494,7 @@ CFIG htmp/network.png
 
 PSLIDE Summary
 
-PIC WFIG 0.4 htmp/crowd.jpg
+PIC WFIG 0.4 Lecture_images/crowd.jpg
 
 PIC DBFIG 0.8 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
 
@@ -494,7 +502,7 @@ PIC DBFIG 0.8 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
 
 Summary
 
-PIC WFIG 0.32 htmp/crowd.jpg
+PIC WFIG 0.32 Lecture_images/crowd.jpg
 
 PIC DBFIG 0.64 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
 

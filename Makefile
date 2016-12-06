@@ -4,7 +4,7 @@
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: family.draft.pdf 
+target pngtarget pdftarget vtarget acrtarget: heterogeneity.draft.pdf 
 
 ##################################################################
 # make files
@@ -47,6 +47,7 @@ archive += foundations.handouts.pdf foundations.draft.pdf
 
 ### Heterogeneity
 ### NTU 2016-3
+### So far the same as ICI3D heterogeneity
 heterogeneity.final.pdf: heterogeneity.txt
 heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt
@@ -64,6 +65,7 @@ gp: $(archive:%=%.gp)
 
 ######################################################################
 
+Sources += survival.R
 survival.Rout: survival.R
 
 ### Makestuff
