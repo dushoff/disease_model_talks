@@ -1,5 +1,5 @@
 
-NOSLIDE To do:
+EXTRA To do:
 
 Clean up htmp stuff
 
@@ -67,6 +67,7 @@ PSLIDE Human heterogeneity
 WIDEFIG Lecture_images/Lesotho_children.jpg
 
 ----------------------------------------------------------------------
+
 
 PSLIDE Human heterogeneity
 

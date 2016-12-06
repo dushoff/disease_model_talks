@@ -1,10 +1,17 @@
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
 
+# https://github.com/dushoff/disease_model_talks/
+
+# https://github.com/dushoff/disease_model_talks/tree/master/git_push
+
+
+##################################################################
 ### Hooks for the editor to set the default target
 current: target
 
 target pngtarget pdftarget vtarget acrtarget: heterogeneity.draft.pdf 
+
 
 ##################################################################
 # make files
@@ -46,6 +53,8 @@ foundations.handouts.pdf: foundations.txt
 archive += foundations.handouts.pdf foundations.draft.pdf
 
 ### Heterogeneity
+# https://github.com/dushoff/disease_model_talks/tree/master/git_push/heterogeneity.draft.pdf 
+
 ### NTU 2016-3
 ### So far the same as ICI3D heterogeneity
 heterogeneity.final.pdf: heterogeneity.txt
