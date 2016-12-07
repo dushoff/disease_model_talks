@@ -1,5 +1,6 @@
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
+### But a disaster from a directory POV
 
 # https://github.com/dushoff/disease_model_talks/
 
@@ -7,6 +8,7 @@
 
 
 ##################################################################
+
 ### Hooks for the editor to set the default target
 current: target
 

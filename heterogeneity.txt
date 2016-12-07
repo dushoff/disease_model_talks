@@ -1,7 +1,11 @@
 
 EXTRA To do:
 
-Clean up htmp stuff
+Clean up
+
+* htmp 
+
+* curves
 
 ----------------------------------------------------------------------
 
@@ -455,9 +459,23 @@ Phenomenological
 
 FIG htmp/phen.Rout.pdf
 
-	You can simply \emph{make} $\beta$ go down as prevalence goes up
+----------------------------------------------------------------------
 
-		Need to choose a functional form
+BC
+
+FIG htmp/phen.Rout.pdf
+
+NC
+
+	Simply \emph{make} $\beta$ go down with prevalence, $\beta = B \times$:
+
+		$e^{-\alpha P}$
+
+		$(1-P)^s$
+
+		$(1-P/s)^{\alpha s}$
+
+EC
 
 ----------------------------------------------------------------------
 
