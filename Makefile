@@ -6,7 +6,6 @@
 
 # https://github.com/dushoff/disease_model_talks/tree/master/git_push
 
-
 ##################################################################
 
 ### Hooks for the editor to set the default target
