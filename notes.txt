@@ -1,11 +1,6 @@
-* What is going on with curves/? Seems pulled in haste from WW! What did I used to do (SIR model family? Hetero?)
 
-* Update exercise page (can it be found?)
+Need to make an Endemic_curves repo for ./ICI3D/WorkingWiki-export/Endemic_curves_with_heterogeneity/. See wiki for text; figure out how to use pictures in markdown (is that a thing?).
 
-* Link to hot version of family.draft.pdf
-
-* Always: testdir …
-
-* After DAIDD: tag, release, and re-link
+----------------------------------------------------------------------
 
 * survival.R seems to be an orphan (a nice picture of gamma-like survival; probably I just used something from the spreadsheets instead for the "confront" lecture.
