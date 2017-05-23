@@ -19,7 +19,6 @@ commit.time
 *.toc
 *.handouts.tex
 
-commit.txt
 .*.sw*
 
 *.pdf
@@ -40,4 +39,4 @@ commit.txt
 
 local.mk
 
-*.makestuff
+txt.format
