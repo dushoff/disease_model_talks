@@ -10,9 +10,7 @@
 
 ### Hooks for the editor to set the default target
 current: target
-
-target pngtarget pdftarget vtarget acrtarget: heterogeneity.draft.pdf 
-
+-include target.mk
 
 ##################################################################
 # make files
@@ -83,6 +81,7 @@ survival.Rout: survival.R
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
 
+-include $(ms)/modules.mk
 -include $(ms)/newtalk.mk
 -include $(ms)/newlatex.mk
 -include $(ms)/wrapR.mk
