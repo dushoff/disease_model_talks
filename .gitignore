@@ -5,6 +5,7 @@ tbincome
 
 beamer.tmp
 commit.time
+target.mk
 
 *.nav
 *.snm
