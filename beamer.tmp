@@ -3,6 +3,7 @@
 \input{LatexTemplates/ici3dTemplate.tex}
 \input{LatexTemplates/bulletspace.tex}
 
+\usepackage{talkdir/slidecomm,talkdir/commands}
 \usepackage{graphicx,xspace}
 \usepackage{grffile}
 \usepackage{hyperref}

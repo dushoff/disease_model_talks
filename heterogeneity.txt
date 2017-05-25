@@ -1,11 +1,33 @@
 
-EXTRA To do:
+EXTRA
 
-Clean up
-
-* curves
+Goals slide
 
 ----------------------------------------------------------------------
+
+NOFRAME
+
+\title{Heterogeneity, contact patterns and modeling options}
+\author{Jonathan Dushoff}
+\date{MMED 2017} 
+\newcommand{\years}{2014--2017} 
+\newcommand{\figshare}{https://figshare.com/articles/NAME/NUMBER}
+
+----------------------------------------------------------------------
+
+PSLIDE NOFRAME
+
+{\topBar\maketitle}
+
+----------------------------------------------------------------------
+
+NSLIDE NOFRAME
+
+{\let\newpage\relax\maketitle}
+
+----------------------------------------------------------------------
+
+EXTRA
 
 Heterogeneity, contact patterns and modeling options
 
@@ -29,6 +51,22 @@ DAIDD 2016
 \end{center}
 
 ----------------------------------------------------------------
+
+Goals
+
+	Explain the importance of heterogeneity on patterns of disease spread
+
+		Focus on different types of human heterogeneity
+
+	Discuss ways in which homogeneous models fail to match observed dynamics
+
+	Use simple models to explore qualitative effects of heterogeneity on
+	modeling conclusions
+
+	Briefly introduce some methods that are used to incorporate heterogeneity in
+	models
+
+----------------------------------------------------------------------
 
 The resilience of infectious disease
 
@@ -242,7 +280,7 @@ Heterogeneity in TB
 
 BC
 
-CFIG tbincome/plot.Rout.pdf
+CFIG Disease_data/tbincome.Rout.pdf
 
 NC
 
@@ -495,7 +533,7 @@ Multi-group models
 
 Individual-based models
 
-CFIG web_drop/network.png
+WFIG 0.8 SIR_model_family/network.png
 
 	Allow many possibilities:
 	
@@ -521,13 +559,16 @@ Summary
 
 PIC WFIG 0.32 web_drop/crowd.jpg
 
-PIC DBFIG 0.64 Endemic_curves/propCurves.Rout-1.pdf 0.8 Endemic_curves/propCurves.Rout-2.pdf
+	People are heterogeneous in many ways
 
-People are heterogeneous in many ways
+		\ldots and on many scales
 
-	\ldots and on many scales
+	Simple models give us important qualitative insights
 
-Simple models give us important qualitative insights
+		Diseases in heterogeneous populations are likely to be more robust to
+		change than expected from homogeneous models
+
+	More complicated models can help address relevant detail
 
 ----------------------------------------------------------------------
 
