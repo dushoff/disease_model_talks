@@ -41,7 +41,7 @@ tbincome:
 
 ## Content
 
-Sources += Disease_data SIR_simulations 
+Sources += Disease_data SIR_simulations SIR_model_family
 
 Sources += local.txt.format
 
