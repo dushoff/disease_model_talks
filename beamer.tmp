@@ -8,6 +8,8 @@
 \usepackage{hyperref}
 \usepackage{url}
 
+\input{talkdir/lengths.tex}
+
 \begin{document}
 
 ----------------------------------------------------------------------
