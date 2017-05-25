@@ -30,6 +30,8 @@ target.mk
 *.r
 .Rhistory
 
+subclone_dir
+
 *.wrapR.*
 
 local.mk
