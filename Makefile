@@ -13,6 +13,7 @@ current: target
 -include target.mk
 
 ##################################################################
+
 # make files
 
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md notes.txt
@@ -20,6 +21,23 @@ include sub.mk
 -include $(ms)/newtalk.def
 
 ##################################################################
+
+## Drop stuff
+
+## This should be replaced by a more principled approach, but not right this very second
+## Images need to have an automatic makefile added, so they can be made by others; this will remain a Drop. Other Drops should probably just be repos (or merged into repos)
+Drop = ~/Dropbox
+web_drop/%: web_drop ;
+web_drop:
+	$(LN) $(Drop)/courses/$@ .
+
+my_images/%: my_images ;
+my_images:
+	$(LN) $(Drop)/$@ .
+
+tbincome/%: tbincome
+tbincome:
+	$(LN) $(Drop)/ICI3D/WorkingWiki-export/TB_and_income/$@ .
 
 ## Content
 
