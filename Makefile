@@ -25,7 +25,7 @@ include sub.mk
 ## Drop stuff
 
 ## This should be replaced by a more principled approach, but not right this very second
-## Images need to have an automatic makefile added, so they can be made by others; this will remain a Drop. Other Drops should probably just be repos (or merged into repos)
+## Images need to have an automatic makefile added, so they can be made by others; the files need a Drop. Other Drops should probably just be repos (or merged into repos)
 Drop = ~/Dropbox
 web_drop/%: web_drop ;
 web_drop:
@@ -39,30 +39,41 @@ tbincome/%: tbincome
 tbincome:
 	$(LN) $(Drop)/ICI3D/WorkingWiki-export/TB_and_income/$@ .
 
-## Content
+######################################################################
 
+## Content sources
+## I guess I want all the repo things here, but I'm less clear on why
 Sources += Disease_data SIR_simulations SIR_model_family
 
 Sources += local.txt.format
+
+# We need to fiddle with beamer.tmp for templates
+Sources += beamer.tmp
 
 ## Copyright not integrated into make system yet
 Sources += copy.tex
 
 Sources += $(wildcard *.txt)
 
+######################################################################
+
+# Family/dynamics
+# Not clear whether these should be merged
+
 ### Dynamical models lecture debut NTU 2016
 ### NTU 2016-1
-### Related to the SIR model family lectures
 dynamics.final.pdf: dynamics.txt
 dynamics.draft.pdf: dynamics.txt
 dynamics.handouts.pdf: dynamics.txt
 
-### Not clear whether to merge dynamics with family
+### ICI3D model family lectures
 family.draft.pdf: family.txt
 
 ##################################################################
 
 archive += dynamics.handouts.pdf dynamics.draft.pdf
+
+### Need to work out Lecture image/web drop stuff before making these
 
 ### Dynamical foundations lecture debut NTU 2016
 ### NTU 2016-2
