@@ -3,8 +3,6 @@ EXTRA To do:
 
 Clean up
 
-* htmp 
-
 * curves
 
 ----------------------------------------------------------------------
@@ -328,7 +326,7 @@ Example
 
 Simpson's paradox
 
-PIC DBFIG 0.8 web_drop/farmers.jpg 0.8 htmp/senate.jpg
+PIC DBFIG 0.8 web_drop/farmers.jpg 0.8 web_drop/senate.jpg
 
 	What happens when a peanut farmer is elected to the US Senate?
 
@@ -457,13 +455,13 @@ SEC Modeling approaches
 
 Phenomenological
 
-FIG htmp/phen.Rout.pdf
+FIG SIR_model_family/phen.Rout.pdf
 
 ----------------------------------------------------------------------
 
 BC
 
-FIG htmp/phen.Rout.pdf
+FIG SIR_model_family/phen.Rout.pdf
 
 NC
 
@@ -497,7 +495,7 @@ Multi-group models
 
 Individual-based models
 
-CFIG htmp/network.png
+CFIG web_drop/network.png
 
 	Allow many possibilities:
 	

@@ -16,3 +16,6 @@
 [submodule "LatexTemplates"]
 	path = LatexTemplates
 	url = git@github.com:ICI3D/LatexTemplates.git
+[submodule "Birth_death_models"]
+	path = Birth_death_models
+	url = git@github.com:Bio3SS/Birth_death_models.git

@@ -19,7 +19,10 @@ target: $(target)
 # make files
 
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md notes.txt
+Drop = ~/Dropbox
 include sub.mk
+-include local.mk
+
 -include $(ms)/newtalk.def
 
 ##################################################################
@@ -28,7 +31,8 @@ include sub.mk
 
 ## This should be replaced by a more principled approach, but not right this very second
 ## Images need to have an automatic makefile added, so they can be made by others; the files need a Drop. Other Drops should probably just be repos (or merged into repos)
-Drop = ~/Dropbox
+## my_images should generate fake images if the real ones aren't there (so people can make when necessary)
+
 web_drop/%: web_drop ;
 web_drop:
 	$(LNF) $(Drop)/courses/Lecture_images $@
@@ -77,7 +81,7 @@ family.handouts.pdf: family.txt
 ### Need to work out Lecture image/web drop stuff before making these
 
 ### Dynamical foundations lecture debut NTU 2016
-### NTU 2016-2
+### Nice stuff about simple Jacobians and zooming, the idea of qualitative analysis …
 foundations.final.pdf: foundations.txt
 foundations.draft.pdf: foundations.txt
 foundations.handouts.pdf: foundations.txt
@@ -99,16 +103,7 @@ confront.draft.pdf: confront.txt
 confront.handouts.pdf: confront.txt
 archive += confront.handouts.pdf confront.draft.pdf
 
-gp: $(archive:%=%.gp)
-
-### Tracking
-
 ######################################################################
-
-Sources += survival.R
-survival.Rout: survival.R
-
-### Makestuff
 
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
