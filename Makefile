@@ -41,6 +41,8 @@ tbincome:
 
 ## Content
 
+Sources += Disease_data SIR_simulations 
+
 Sources += local.txt.format
 
 ## Copyright not integrated into make system yet
