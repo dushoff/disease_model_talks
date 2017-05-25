@@ -32,7 +32,7 @@ Goals
 
 Dynamic modeling connects scales
 
-PIC DBFIG 0.7 Lecture_images/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+PIC DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 
 	Start with rules about how things change in short time steps
 
@@ -58,7 +58,7 @@ BC
 
 NC
 
-SIDEFIG Lecture_images/dandy_field.jpg
+SIDEFIG web_drop/dandy_field.jpg
 
 EC
 
@@ -80,7 +80,7 @@ BC
 
 NC
 
-SIDEFIG Lecture_images/flat.png
+SIDEFIG web_drop/flat.png
 
 EC
 
@@ -195,7 +195,7 @@ BC
 
 NC
 
-SIDEFIG Lecture_images/violet_bacteria.jpg
+SIDEFIG web_drop/violet_bacteria.jpg
 
 EC
 

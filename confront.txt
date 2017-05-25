@@ -30,7 +30,7 @@ Goals
 
 Bridging
 
-PIC DBFIG 0.7 Lecture_images/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+PIC DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 
 	Models are the tool we use to bridge between data and mechanisms
 
@@ -78,7 +78,7 @@ FIG HIV_model_data/Diagram2.png
 
 Realistic time distributions
 
-FIG Lecture_images/boxcars.jpg
+FIG web_drop/boxcars.jpg
 
 ----------------------------------------------------------------------
 
@@ -88,7 +88,7 @@ WIDEFIG HIV_model_data/Diagram3.png
 
 Are people \emph{responding} to the epidemic?
 
-FIG Lecture_images/SA_region_LE.png
+FIG web_drop/SA_region_LE.png
 
 ----------------------------------------------------------------------
 

@@ -29,7 +29,7 @@ include sub.mk
 Drop = ~/Dropbox
 web_drop/%: web_drop ;
 web_drop:
-	$(LN) $(Drop)/courses/$@ .
+	$(LNF) $(Drop)/courses/Lecture_images $@
 
 my_images/%: my_images ;
 my_images:

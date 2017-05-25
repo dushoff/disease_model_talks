@@ -38,13 +38,13 @@ BC
 
 1967: It's time to close the book on infectious diseases
 
-PIC WFIG 0.6 Lecture_images/smallpox.jpg
+PIC WFIG 0.6 web_drop/smallpox.jpg
 
 NC
 
-PIC WFIG 0.6 Lecture_images/headlines.jpg
+PIC WFIG 0.6 web_drop/headlines.jpg
 
-PIC WFIG 0.6 Lecture_images/book.jpg
+PIC WFIG 0.6 web_drop/book.jpg
 
 EC
 
@@ -52,32 +52,32 @@ EC
 
 Pathogen evolution
 
-PIC WFIG 0.4 Lecture_images/influenza.jpg
+PIC WFIG 0.4 web_drop/influenza.jpg
 
-PIC WFIG 0.4 Lecture_images/tb.jpg
+PIC WFIG 0.4 web_drop/tb.jpg
 
 ----------------------------------------------------------------------
 
 Human heterogeneity
 
-PIC HFIG 0.42 Lecture_images/maasai.jpg
+PIC HFIG 0.42 web_drop/maasai.jpg
 
-PIC WFIG 0.48 Lecture_images/inuit.jpg
+PIC WFIG 0.48 web_drop/inuit.jpg
 
 ----------------------------------------------------------------------
 
 PSLIDE Human heterogeneity
 
-WIDEFIG Lecture_images/Lesotho_children.jpg
+WIDEFIG web_drop/Lesotho_children.jpg
 
 ----------------------------------------------------------------------
 
 
 PSLIDE Human heterogeneity
 
-HFIG 0.42 Lecture_images/dump_workers.jpg
+HFIG 0.42 web_drop/dump_workers.jpg
 
-HFIG 0.48 Lecture_images/bento.jpg
+HFIG 0.48 web_drop/bento.jpg
 
 --------------------------------------------------------------
 
@@ -273,7 +273,7 @@ Heterogeneity in other diseases
 
 Large-scale heterogeneity
 
-PIC HFIG 0.64 Lecture_images/schisto.png
+PIC HFIG 0.64 web_drop/schisto.png
 
 	For schistosomiasis, the worldwide average $\Ro<1$
 
@@ -328,7 +328,7 @@ Example
 
 Simpson's paradox
 
-PIC DBFIG 0.8 Lecture_images/farmers.jpg 0.8 htmp/senate.jpg
+PIC DBFIG 0.8 web_drop/farmers.jpg 0.8 htmp/senate.jpg
 
 	What happens when a peanut farmer is elected to the US Senate?
 
@@ -513,7 +513,7 @@ CFIG htmp/network.png
 
 PSLIDE Summary
 
-PIC WFIG 0.4 Lecture_images/crowd.jpg
+PIC WFIG 0.4 web_drop/crowd.jpg
 
 PIC DBFIG 0.8 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
 
@@ -521,7 +521,7 @@ PIC DBFIG 0.8 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
 
 Summary
 
-PIC WFIG 0.32 Lecture_images/crowd.jpg
+PIC WFIG 0.32 web_drop/crowd.jpg
 
 PIC DBFIG 0.64 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
 

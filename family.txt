@@ -1,25 +1,16 @@
 
-The SIR Model Family
-
-\vfill
-
-Jonathan Dushoff, McMaster University
-
-\url{http://lalashan.mcmaster.ca/DushoffLab}
-
-\vfill
-
-DAIDD 2016
-
-\url{http://www.ici3d.org/daidd/}
-
-\vfill
+\title{The SIR Model Family}
+\author{Jonathan Dushoff}
+\date{MMED 2017} 
+\newcommand{\years}{2014--2017} 
+\newcommand{\figshare}{https://figshare.com/articles/NAME/NUMBER}
+{\topBar\maketitle}
 
 ----------------------------------------------------------------------
 
 Dynamic modeling connects scales
 
-PIC DBFIG 0.7 Lecture_images/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+PIC DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 
 	Start with rules about how things change in short time steps
 
@@ -183,7 +174,7 @@ More about transmission
 
 BC
 
-SIDEFIG Lecture_images/trans.jpg
+SIDEFIG web_drop/trans.jpg
 
 NC
 
