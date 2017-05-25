@@ -19,3 +19,6 @@
 [submodule "Birth_death_models"]
 	path = Birth_death_models
 	url = git@github.com:Bio3SS/Birth_death_models.git
+[submodule "Endemic_curves"]
+	path = Endemic_curves
+	url = git@github.com:dushoff/Endemic_curves.git
