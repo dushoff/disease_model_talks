@@ -144,7 +144,7 @@ RHEAD Homogeneous endemic curve
 
 BC
 
-CFIG curves/propCurves.Rout-0.pdf
+CFIG Endemic_curves/propCurves.Rout-0.pdf
 
 NC
 
@@ -366,19 +366,19 @@ Equilibrium analysis
 
 RSLIDE Homogeneous endemic curve
 
-FIG curves/propCurves.Rout-0.pdf
+FIG Endemic_curves/propCurves.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
 RHEAD Heterogeneous endemic curves
 
-FIG curves/propCurves.Rout-2.pdf
+FIG Endemic_curves/propCurves.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
 RHEAD Heterogeneous endemic curves
 
-FIG curves/propCurves.Rout-1.pdf
+FIG Endemic_curves/propCurves.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
@@ -395,7 +395,7 @@ BC
 
 NC
 
-SIDEFIG curves/propCurves.Rout-2.pdf
+SIDEFIG Endemic_curves/propCurves.Rout-2.pdf
 
 EC
 
@@ -411,7 +411,7 @@ BC
 
 NC
 
-SIDEFIG curves/propCurves.Rout-1.pdf
+SIDEFIG Endemic_curves/propCurves.Rout-1.pdf
 
 EC
 
@@ -515,7 +515,7 @@ PSLIDE Summary
 
 PIC WFIG 0.4 web_drop/crowd.jpg
 
-PIC DBFIG 0.8 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
+PIC DBFIG 0.8 Endemic_curves/propCurves.Rout-1.pdf 0.8 Endemic_curves/propCurves.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
@@ -523,7 +523,7 @@ Summary
 
 PIC WFIG 0.32 web_drop/crowd.jpg
 
-PIC DBFIG 0.64 curves/propCurves.Rout-1.pdf 0.8 curves/propCurves.Rout-2.pdf
+PIC DBFIG 0.64 Endemic_curves/propCurves.Rout-1.pdf 0.8 Endemic_curves/propCurves.Rout-2.pdf
 
 People are heterogeneous in many ways
 
