@@ -76,6 +76,8 @@ dynamics.handouts.pdf: dynamics.txt
 family.draft.pdf: family.txt
 family.handouts.pdf: family.txt
 
+Sources += live_2016.R
+
 ##################################################################
 
 ### Need to work out Lecture image/web drop stuff before making these
