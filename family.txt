@@ -1,12 +1,23 @@
 
-TOP
+NOFRAME
 
 \title{The SIR Model Family}
 \author{Jonathan Dushoff}
 \date{MMED 2017} 
 \newcommand{\years}{2014--2017} 
 \newcommand{\figshare}{https://figshare.com/articles/NAME/NUMBER}
+
+----------------------------------------------------------------------
+
+PSLIDE NOFRAME
+
 {\topBar\maketitle}
+
+----------------------------------------------------------------------
+
+NSLIDE NOFRAME
+
+{\let\newpage\relax\maketitle}
 
 ----------------------------------------------------------------------
 
@@ -27,7 +38,7 @@ Goals
 
 Dynamic modeling connects scales
 
-PIC DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+REP DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 
 	Start with rules about how things change in short time steps
 
@@ -51,7 +62,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 What determines transition rates?
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	People get better independently
 
@@ -59,17 +70,17 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 ----------------------------------------------------------------------
 
-Conceptual modeling
+PSLIDE Conceptual modeling
 
 DIAGRAM SIR_model_family/sir.three.pdf
 
-HFIG 0.6 SIR_model_family/thinker.jpg
+PIC HFIG 0.6 SIR_model_family/thinker.jpg
 
 ----------------------------------------------------------------------
 
 Conceptual modeling
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	What is the final result?
 
@@ -79,7 +90,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 Dynamic implementation
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	Requires assumptions about recovery and transmission
 
@@ -94,7 +105,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 Recovery
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	Infectious people recover at \emph{per capita}
 	rate $\gamma$
@@ -107,7 +118,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 Transmission
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	Susceptible people get infected by:
 
@@ -126,7 +137,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 Another perspective on transmission
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 	Infectious people infect others by:
 
@@ -145,7 +156,7 @@ DIAGRAM SIR_model_family/sir.three.pdf
 
 ODE implementation
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 DIAGRAM SIR_model_family/sirodes.const.pdf
 
@@ -153,7 +164,7 @@ DIAGRAM SIR_model_family/sirodes.const.pdf
 
 Spreadsheet implementation
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 \url{http://tinyurl.com/SIR-MMED-2017}
 
@@ -187,7 +198,11 @@ DBFIG 0.8 SIR_model_family/exp.Rout-0.pdf 0.8 SIR_model_family/exp.Rout-1.pdf
 
 Scripts vs.\ spreadsheets
 
-DBFIG 0.7 SIR_model_family/gd.png 0.8 SIR_model_family/R.png
+PIC DBFIG 0.7 SIR_model_family/gd.png 0.8 SIR_model_family/R.png
+
+	Scripts are more transparent, less redundant
+
+	Spreadsheets are more intuitive for simple problems
 
 ----------------------------------------------------------------------
 
@@ -213,9 +228,9 @@ EC
 
 ----------------------------------------------------------------------
 
-Population sizes
+PSLIDE Population sizes
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 DIAGRAM SIR_model_family/sirodes.const.pdf
 
@@ -223,7 +238,7 @@ DIAGRAM SIR_model_family/sirodes.const.pdf
 
 Population sizes
 
-DIAGRAM SIR_model_family/sir.three.pdf
+REP DIAGRAM SIR_model_family/sir.three.pdf
 
 DIAGRAM SIR_model_family/sirodes.pdf
 
@@ -281,13 +296,13 @@ DIAGRAM SIR_model_family/sirbd.three.pdf
 
 Tendency to oscillate
 
-PRESENT LANDFIG SIR_model_family/comp0.pdf
+LANDFIG SIR_model_family/comp0.pdf
 
 ----------------------------------------------------------------------
 
 With individuality
 
-PRESENT LANDFIG SIR_model_family/comp.pdf
+LANDFIG SIR_model_family/comp.pdf
 
 ----------------------------------------------------------------------
 

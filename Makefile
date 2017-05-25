@@ -60,7 +60,7 @@ Sources += $(wildcard *.txt)
 ######################################################################
 
 # Family/dynamics
-# Not clear whether these should be merged
+# Probably not worth trying to merge; good ICI3D stuff from Taiwan has largely been incorporated. The Taiwan stuff takes a wider perspective (dandelions and eigenvalues)
 
 ### Dynamical models lecture debut NTU 2016
 ### NTU 2016-1
@@ -70,10 +70,9 @@ dynamics.handouts.pdf: dynamics.txt
 
 ### ICI3D model family lectures
 family.draft.pdf: family.txt
+family.handouts.pdf: family.txt
 
 ##################################################################
-
-archive += dynamics.handouts.pdf dynamics.draft.pdf
 
 ### Need to work out Lecture image/web drop stuff before making these
 
