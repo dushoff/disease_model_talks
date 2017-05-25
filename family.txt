@@ -10,6 +10,21 @@ TOP
 
 ----------------------------------------------------------------------
 
+Goals
+
+	This lecture will:
+
+		introduce the idea of dynamical modeling
+
+		explain why dynamical modeling is a key tool for understanding infectious
+		disease
+
+		discuss and demonstrate simple dynamical models from the SIR model family
+
+		investigate some insights that can be gained from these models
+
+----------------------------------------------------------------------
+
 Dynamic modeling connects scales
 
 PIC DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
@@ -17,6 +32,10 @@ PIC DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 	Start with rules about how things change in short time steps
 
 		Usually based on \emph{individuals}
+
+	Calculate results over longer time periods
+
+		Usually about \emph{populations}
 
 ----------------------------------------------------------------------
 
@@ -274,30 +293,19 @@ PRESENT LANDFIG SIR_model_family/comp.pdf
 
 Summary
 
-	Dynamics are an essential tool to link scales
+	Dynamic models are an essential tool because they allow us to link between
+	scales
+
+	There are many ways to construct and implement dynamic models
 
 	Very simple models can provide useful insights
+
+		Reproductive numbers and thresholds
+
+		Tendency for oscillation (and tendency for damping)
 
 	More complex models can provide more detail, but also require more
 	assumptions, and more choices
 
-----------------------------------------------------------------------
-
-Conclusions from simple models
-
-	There is a link between individual-level processes and population-level
-	outcomes
-
-	The reproductive number (number of cases per case) is a key quantity
-
-		Disease increases when $\Rx>1$
-
-		Decreases when $\Rx<1$
-
-	Oscillation
-
-		If susceptibles are replenished, diseases have a tendency to oscillate
-
-		These oscillations tend to be damped (get smaller through time)
-
-	These conclusions from \textbf{simple} models help \emph{guide} our understanding of more complicated models
+	Understanding simple models can help guide our understanding of more
+	complicated models
