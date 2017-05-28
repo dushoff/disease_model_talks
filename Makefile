@@ -54,9 +54,6 @@ Sources += Birth_death_models Disease_data Endemic_curves Exponential_figures La
 
 Sources += local.txt.format
 
-# We need to fiddle with beamer.tmp for templates
-Sources += beamer.tmp
-
 ## Copyright not integrated into make system yet
 Sources += copy.tex
 
