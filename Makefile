@@ -1,6 +1,6 @@
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
-### But a disaster from a directory POV
+### Seems to be working; used for DAIDD and now updating with submodules for MMED
 
 # https://github.com/dushoff/disease_model_talks/
 
@@ -40,10 +40,6 @@ web_drop:
 my_images/%: my_images ;
 my_images:
 	$(LN) $(Drop)/$@ .
-
-tbincome/%: tbincome
-tbincome:
-	$(LN) $(Drop)/ICI3D/WorkingWiki-export/TB_and_income/$@ .
 
 ######################################################################
 

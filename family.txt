@@ -1,8 +1,9 @@
 
 NOFRAME
 
-\title{The SIR Model Family}
-\author{Jonathan Dushoff}
+\title{Foundations of dynamic modeling:}
+\subtitle{The SIR Model Family}
+\author{Jonathan Dushoff, McMaster University}
 \date{MMED 2017} 
 \newcommand{\years}{2014--2017} 
 \newcommand{\figshare}{https://figshare.com/articles/NAME/NUMBER}
@@ -228,6 +229,14 @@ EC
 
 ----------------------------------------------------------------------
 
+Population sizes
+
+	How does $\beta$ change with population size?
+
+	Recall that $\beta$ is the \emph{per capita} rate of contacts
+
+----------------------------------------------------------------------
+
 PSLIDE Population sizes
 
 REP DIAGRAM SIR_model_family/sir.three.pdf
@@ -236,7 +245,7 @@ DIAGRAM SIR_model_family/sirodes.const.pdf
 
 ----------------------------------------------------------------------
 
-Population sizes
+RHEAD Population sizes
 
 REP DIAGRAM SIR_model_family/sir.three.pdf
 
@@ -266,9 +275,11 @@ FIG SIR_model_family/beta.Rout-1.pdf
 
 FIG SIR_model_family/beta.Rout-3.pdf
 
-	May not go to zero when $N$ does
+	Per-capita rate:
 
-	May not go to $\infty$ when $N$ does
+		May not go to zero when $N$ does
+
+		May not go to $\infty$ when $N$ does
 
 ----------------------------------------------------------------------
 
@@ -298,11 +309,24 @@ Tendency to oscillate
 
 LANDFIG SIR_model_family/comp0.pdf
 
+	Many susceptibles 
+	$\rightarrow$ many infections 
+	$\rightarrow$ few susceptibles 
+	$\rightarrow$ few infections 
+	$\rightarrow$ \ldots
+
+	Oscillations in simple models tend to be ``damped"
+
 ----------------------------------------------------------------------
 
 With individuality
 
 LANDFIG SIR_model_family/comp.pdf
+
+	Treating individuals as individuals can produce substantial oscillations
+	even in large populations
+
+	Interaction between random effects and the different time scales (of infection and recovery)
 
 ----------------------------------------------------------------------
 
