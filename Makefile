@@ -69,6 +69,7 @@ dynamics.handouts.pdf: dynamics.txt
 ### ICI3D model family lectures
 family.draft.pdf: family.txt
 family.handouts.pdf: family.txt
+family.final.pdf: family.txt
 
 Sources += live_2016.R
 
