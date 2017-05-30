@@ -71,7 +71,11 @@ family.draft.pdf: family.txt
 family.handouts.pdf: family.txt
 family.final.pdf: family.txt
 
-Sources += live_2016.R
+######################################################################
+
+Sources += $(wildcard.R)
+
+live.Rout: live.R
 
 ##################################################################
 
@@ -88,7 +92,6 @@ archive += foundations.handouts.pdf foundations.draft.pdf
 # https://github.com/dushoff/disease_model_talks/tree/master/git_push/heterogeneity.draft.pdf 
 
 ### NTU 2016-3
-### So far the same as ICI3D heterogeneity
 heterogeneity.final.pdf: heterogeneity.txt
 heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt

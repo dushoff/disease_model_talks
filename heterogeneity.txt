@@ -11,7 +11,7 @@ NOFRAME
 \author{Jonathan Dushoff}
 \date{MMED 2017} 
 \newcommand{\years}{2014--2017} 
-\newcommand{\figshare}{https://figshare.com/articles/NAME/NUMBER}
+\newcommand{\figshare}{http://tinyurl.com/ici3d-figshare}
 
 ----------------------------------------------------------------------
 
@@ -155,7 +155,11 @@ The basic reproductive number
 
 Equilibrium
 
-LANDFIG SIR_model_family/comp.pdf
+LFIG 0.9 SIR_model_family/comp.pdf
+
+	Equilibrium is worth knowing even if the disease doesn't reach equilibrium
+
+	System will move around the equilibrium
 
 ----------------------------------------------------------------------
 
@@ -189,6 +193,8 @@ NC
 	Sharp response to changes in factors underlying transmission 
 
 	Works -- sometimes
+
+	Sometimes predicts unrealistic sensitivity
 
 EC
 
@@ -236,6 +242,16 @@ FIG SIR_simulations/hiv_plot.Rout-3.pdf
 RHEAD Homogeneous assumptions
 
 FIG SIR_simulations/hiv_plot.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+Homogeneous dynamics
+
+	For many diseases, homogeneous models tend to predict:
+
+		Too high of an equilibrium, when matching growth rate
+
+		Too low of a growth rate, when matching equilibrium
 
 ----------------------------------------------------------------------
 
@@ -528,6 +544,9 @@ Multi-group models
 		age, gender
 
 		...
+
+	Even if details are not correct, heterogeneity will emerge and move model in
+	the right direction
 
 ----------------------------------------------------------------------
 
