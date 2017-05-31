@@ -1,10 +1,4 @@
 
-EXTRA
-
-Goals slide
-
-----------------------------------------------------------------------
-
 NOFRAME
 
 \title{Heterogeneity, contact patterns and modeling options}

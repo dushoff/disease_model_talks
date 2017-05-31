@@ -73,7 +73,7 @@ family.final.pdf: family.txt
 
 ######################################################################
 
-Sources += $(wildcard.R)
+Sources += $(wildcard *.R)
 
 live.Rout: live.R
 
