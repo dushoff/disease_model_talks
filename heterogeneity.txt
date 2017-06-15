@@ -2,7 +2,7 @@
 NOFRAME
 
 \title{Heterogeneity, contact patterns and modeling options}
-\author{Jonathan Dushoff}
+\author{Jonathan Dushoff, McMaster University}
 \date{MMED 2017} 
 \newcommand{\years}{2014--2017} 
 \newcommand{\figshare}{http://tinyurl.com/ici3d-figshare}
@@ -52,7 +52,8 @@ Goals
 
 		Focus on different types of human heterogeneity
 
-	Discuss ways in which homogeneous models fail to match observed dynamics
+	Discuss ways in which homogeneous models fail to match observed
+	dynamics
 
 	Use simple models to explore qualitative effects of heterogeneity on
 	modeling conclusions
