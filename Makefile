@@ -27,6 +27,11 @@ include sub.mk
 
 ##################################################################
 
+# Theme for whatever lectures are now being prepared
+Sources += beamer.tmp
+
+######################################################################
+
 ## Drop stuff
 
 ## This should be replaced by a more principled approach, but not right this very second
