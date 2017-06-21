@@ -1,6 +1,7 @@
 web_drop
 talkdir
 tbincome
+testdir
 
 commit.time
 target.mk
