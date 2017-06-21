@@ -16,9 +16,16 @@ target: $(target)
 
 ##################################################################
 
+dirs += makestuff SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves
+
+dfiles: $(dirs:%=%/Makefile)
+Sources += $(dirs)
+
+######################################################################
+
 # make files
 
-Sources = Makefile .gitignore README.md sub.mk LICENSE.md notes.txt
+Sources += Makefile .gitignore README.md sub.mk LICENSE.md notes.txt
 Drop = ~/Dropbox
 include sub.mk
 -include local.mk
