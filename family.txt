@@ -34,13 +34,16 @@ NSLIDE NOFRAME
 \noindent\includegraphics[width=\textwidth]{LatexTemplates/bar.pdf}
 
 {\centering
-	\textsf{\textbf
-		{\Large Foundations of dynamic modeling: }
-	 	\\ {\large The SIR Model Family}
+	\textsf{
+		\textbf{
+			{\Large Foundations of dynamic modeling: }
+			\\ {\large The SIR Model Family}
+		}}
+	 	\\ {\large DAIDD 2017}
+		\\ \mbox{}
 	}
 }
 
-\vspace{3ex}
 
 ----------------------------------------------------------------------
 
