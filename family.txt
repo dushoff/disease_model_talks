@@ -12,26 +12,38 @@ EXTRA
 
 NOFRAME
 
-\title{Foundations of dynamic modeling:}
-\subtitle{The SIR Model Family}
-\author{Jonathan Dushoff, McMaster University}
 \date{DAIDD 2017} 
-\newcommand{\years}{See figshare site} 
-\newcommand{\figshare}{https://figshare.com/}
 
 ----------------------------------------------------------------------
 
 PSLIDE NOFRAME
 
+\title{Foundations of dynamic modeling:}
+\author{Jonathan Dushoff, McMaster University}
+\subtitle{The SIR Model Family}
+\newcommand{\years}{See figshare site} 
+\newcommand{\figshare}{https://figshare.com/}
 {\topBar\maketitle}
 
 ----------------------------------------------------------------------
 
 NSLIDE NOFRAME
 
-{\let\newpage\relax\maketitle}
+\newcommand{\years}{2013--2017} 
+
+\noindent\includegraphics[width=\textwidth]{LatexTemplates/bar.pdf}
+
+{\centering
+	\textsf{\textbf
+		{\Large Foundations of dynamic modeling: }
+	 	\\ {\large The SIR Model Family}
+	}
+}
+
+\vspace{3ex}
 
 ----------------------------------------------------------------------
+
 
 Goals
 
@@ -86,7 +98,7 @@ PSLIDE Conceptual modeling
 
 DIAGRAM SIR_model_family/sir.three.pdf
 
-PIC HFIG 0.6 SIR_model_family/thinker.jpg
+PIC HFIG 0.55 SIR_model_family/thinker.jpg
 
 ----------------------------------------------------------------------
 
@@ -178,7 +190,7 @@ Spreadsheet implementation
 
 REP DIAGRAM SIR_model_family/sir.three.pdf
 
-\url{http://tinyurl.com/SIR-MMED-2017}
+\url{http://tinyurl.com/SIR-DAIDD-2017}
 
 ----------------------------------------------------------------------
 
