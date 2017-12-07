@@ -56,8 +56,7 @@ my_images:
 ######################################################################
 
 ## Content sources
-## I guess I want all the repo things here, but I'm less clear on why
-## Slashes can kill!!
+## WARNING: Slashes can kill!!
 Sources += Birth_death_models Disease_data Endemic_curves Exponential_figures LatexTemplates makestuff SIR_model_family SIR_simulations
 
 Sources += local.txt.format

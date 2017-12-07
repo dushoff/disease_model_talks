@@ -1,10 +1,18 @@
 
+EXTRA
+
+	This talk is given at DAIDD, and at MMED to the DAIDD-track types. How should it differ?
+
+	Nobody should hear it twice (DAIDD graduates should not be in this track)
+
+----------------------------------------------------------------------
+
 NOFRAME
 
 \title{Foundations of dynamic modeling:}
 \subtitle{The SIR Model Family}
 \author{Jonathan Dushoff, McMaster University}
-\date{MMED 2017} 
+\date{DAIDD 2017} 
 \newcommand{\years}{See figshare site} 
 \newcommand{\figshare}{https://figshare.com/}
 
