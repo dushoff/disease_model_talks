@@ -21,6 +21,8 @@ dirs += makestuff SIR_simulations Exponential_figures SIR_model_family Disease_d
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
 
+mdirs += $(dirs)
+
 ######################################################################
 
 # make files
