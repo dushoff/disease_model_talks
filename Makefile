@@ -16,6 +16,8 @@ target: $(target)
 
 ##################################################################
 
+## Content sources
+## WARNING: Slashes can kill!!
 dirs += makestuff SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves
 
 dfiles: $(dirs:%=%/Makefile)
@@ -57,9 +59,6 @@ my_images:
 
 ######################################################################
 
-## Content sources
-## WARNING: Slashes can kill!!
-Sources += Birth_death_models Disease_data Endemic_curves Exponential_figures LatexTemplates makestuff SIR_model_family SIR_simulations
 
 Sources += local.txt.format
 
