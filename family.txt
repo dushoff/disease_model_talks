@@ -12,40 +12,17 @@ EXTRA
 
 NOFRAME
 
-\date{DAIDD 2017} 
-
-----------------------------------------------------------------------
-
-PSLIDE NOFRAME
-
-\title{Foundations of dynamic modeling:}
-\author{Jonathan Dushoff, McMaster University}
-\subtitle{The SIR Model Family}
-\newcommand{\years}{See figshare site} 
-\newcommand{\figshare}{https://figshare.com/}
-{\topBar\maketitle}
-
-----------------------------------------------------------------------
-
-NSLIDE NOFRAME
-
+\newcommand{\jddate}{DAIDD 2017} 
+\newcommand{\jdtitle}{Foundations of dynamic modeling:}
+\newcommand{\jdsub}{The SIR Model Family}
+\newcommand{\jdauth}{Jonathan Dushoff, McMaster University}
 \newcommand{\years}{2013--2017} 
 
-\noindent\includegraphics[width=\textwidth]{LatexTemplates/bar.pdf}
-
-{\centering
-	\textsf{
-		\textbf{
-			{\Large Foundations of dynamic modeling: }
-			\\ {\large The SIR Model Family}
-		}}
-	 	\\ {\large DAIDD 2017}
-		\\ \mbox{}
-	}
-}
-
 ----------------------------------------------------------------------
 
+ICI3D
+
+----------------------------------------------------------------------
 
 Goals
 
