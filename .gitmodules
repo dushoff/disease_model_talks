@@ -1,24 +1,24 @@
 [submodule "makestuff"]
 	path = makestuff
-	url = git@github.com:dushoff/makestuff.git
+	url = https://github.com/dushoff/makestuff.git
 [submodule "SIR_simulations"]
 	path = SIR_simulations
-	url = git@github.com:dushoff/SIR_simulations.git
+	url = https://github.com/dushoff/SIR_simulations.git
 [submodule "Exponential_figures"]
 	path = Exponential_figures
-	url = git@github.com:Bio3SS/Exponential_figures.git
+	url = https://github.com/Bio3SS/Exponential_figures.git
 [submodule "SIR_model_family"]
 	path = SIR_model_family
-	url = git@github.com:dushoff/SIR_model_family.git
+	url = https://github.com/dushoff/SIR_model_family.git
 [submodule "Disease_data"]
 	path = Disease_data
-	url = git@github.com:mac-theobio/Disease_data.git
+	url = https://github.com/mac-theobio/Disease_data.git
 [submodule "LatexTemplates"]
 	path = LatexTemplates
-	url = git@github.com:ICI3D/LatexTemplates.git
+	url = https://github.com/ICI3D/LatexTemplates.git
 [submodule "Birth_death_models"]
 	path = Birth_death_models
-	url = git@github.com:Bio3SS/Birth_death_models.git
+	url = https://github.com/Bio3SS/Birth_death_models.git
 [submodule "Endemic_curves"]
 	path = Endemic_curves
-	url = git@github.com:dushoff/Endemic_curves.git
+	url = https://github.com/dushoff/Endemic_curves.git

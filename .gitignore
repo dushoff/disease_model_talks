@@ -30,7 +30,11 @@ target.mk
 *.r
 .Rhistory
 
-subclone_dir
+clonedir
+dotdir/
+
+*.oldfile
+*.olddiff
 
 *.wrapR.*
 
