@@ -1,6 +1,1 @@
-
-Need to make an Endemic_curves repo for ./ICI3D/WorkingWiki-export/Endemic_curves_with_heterogeneity/. See wiki for text; figure out how to use pictures in markdown (is that a thing?).
-
-----------------------------------------------------------------------
-
 * survival.R seems to be an orphan (a nice picture of gamma-like survival; probably I just used something from the spreadsheets instead for the "confront" lecture.

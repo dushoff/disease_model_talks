@@ -8,23 +8,14 @@ EXTRA
 
 NOFRAME
 
-\title{Heterogeneity, contact patterns and modeling options}
-\author{Jonathan Dushoff, McMaster University}
-\date{DAIDD 2017} 
-\newcommand{\years}{2014--2017} 
-\newcommand{\figshare}{http://tinyurl.com/ici3d-figshare}
+\newcommand{\jdtitle}{Heterogeneity, contact patterns and modeling options}
+\newcommand{\jdsub}{}
+\newcommand{\jdauth}{Jonathan Dushoff, McMaster University}
+\newcommand{\years}{2013--2017} 
 
 ----------------------------------------------------------------------
 
-PSLIDE NOFRAME
-
-{\topBar\maketitle}
-
-----------------------------------------------------------------------
-
-NSLIDE NOFRAME
-
-{\let\newpage\relax\maketitle}
+ICI3D
 
 ----------------------------------------------------------------------
 
@@ -157,7 +148,7 @@ The basic reproductive number
 
 Equilibrium
 
-LFIG 0.9 SIR_model_family/comp.pdf
+LANDFIG SIR_model_family/comp.pdf
 
 	Equilibrium is worth knowing even if the disease doesn't reach equilibrium
 

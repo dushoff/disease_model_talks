@@ -39,7 +39,8 @@ include sub.mk
 ##################################################################
 
 # Theme for whatever lectures are now being prepared
-Sources += beamer.tmp
+# .tmp files not here will be made from talkdir
+Sources += beamer.tmp notes.tmp
 
 ######################################################################
 
@@ -98,7 +99,6 @@ live.Rout: live.R
 foundations.final.pdf: foundations.txt
 foundations.draft.pdf: foundations.txt
 foundations.handouts.pdf: foundations.txt
-archive += foundations.handouts.pdf foundations.draft.pdf
 
 ### Heterogeneity
 # https://github.com/dushoff/disease_model_talks/tree/master/git_push/heterogeneity.draft.pdf 
@@ -107,13 +107,11 @@ archive += foundations.handouts.pdf foundations.draft.pdf
 heterogeneity.final.pdf: heterogeneity.txt
 heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt
-archive += heterogeneity.handouts.pdf heterogeneity.draft.pdf
 
 ### Fitting (Williams/Hargrove/Pulliam)
 ### NTU 2016-4
 confront.draft.pdf: confront.txt
 confront.handouts.pdf: confront.txt
-archive += confront.handouts.pdf confront.draft.pdf
 
 ######################################################################
 
