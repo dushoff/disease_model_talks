@@ -18,7 +18,8 @@ target: $(target)
 
 ## Content sources
 ## WARNING: Slashes can kill!!
-dirs += makestuff SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves
+## Also, no makestuff in mdirs!
+dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves
 
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
