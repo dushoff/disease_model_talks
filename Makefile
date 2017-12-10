@@ -19,7 +19,7 @@ target: $(target)
 ## Content sources
 ## WARNING: Slashes can kill!!
 ## Also, no makestuff in mdirs!
-dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves
+dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves Generation_distributions
 
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
@@ -61,7 +61,6 @@ my_images:
 
 ######################################################################
 
-
 Sources += local.txt.format
 
 ## Copyright not integrated into make system yet
@@ -93,7 +92,6 @@ live.Rout: live.R
 
 ##################################################################
 
-### Need to work out Lecture image/web drop stuff before making these
 
 ### Dynamical foundations lecture debut NTU 2016
 ### Nice stuff about simple Jacobians and zooming, the idea of qualitative analysis …
