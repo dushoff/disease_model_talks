@@ -156,6 +156,13 @@ LANDFIG SIR_model_family/comp.pdf
 
 ----------------------------------------------------------------------
 
+PSLIDE Model taxonomy
+
+FIG taxon.jpg
+
+----------------------------------------------------------------------
+
+
 Equilibrium analysis 
 
 	$\Reffec$ is the number of people who would be infected by an

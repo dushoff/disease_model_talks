@@ -173,6 +173,12 @@ REP DIAGRAM SIR_model_family/sir.three.pdf
 
 ----------------------------------------------------------------------
 
+PSLIDE Model taxonomy
+
+FIG taxon.jpg
+
+----------------------------------------------------------------------
+
 ODE assumptions
 
 BC
@@ -329,6 +335,12 @@ LANDFIG SIR_model_family/comp.pdf
 	even in large populations
 
 	Interaction between random effects and the different time scales (of infection and recovery)
+
+----------------------------------------------------------------------
+
+PSLIDE Model taxonomy
+
+FIG taxon.jpg
 
 ----------------------------------------------------------------------
 

@@ -114,6 +114,20 @@ heterogeneity.handouts.pdf: heterogeneity.txt
 confront.draft.pdf: confront.txt
 confront.handouts.pdf: confront.txt
 
+### Pitch slide
+### Intro DAIDD 2017
+
+Sources += pitch.tex
+pitch.pdf: pitch.tex
+
+######################################################################
+
+## Taxonomy template
+
+Sources += taxonomy.jpg
+taxon.jpg: taxonomy.jpg Makefile
+	convert -crop 960x560+0+100 $< $@
+
 ######################################################################
 
 -include $(ms)/git.mk
