@@ -51,6 +51,8 @@ Sources += beamer.tmp notes.tmp
 ## Images need to have an automatic makefile added, so they can be made by others; the files need a Drop. Other Drops should probably just be repos (or merged into repos)
 ## my_images should generate fake images if the real ones aren't there (so people can make when necessary)
 
+## Lecture_images submodule nuked and won't come back. Investigate.
+
 web_drop/%: web_drop ;
 web_drop:
 	$(LNF) $(Drop)/courses/Lecture_images $@
