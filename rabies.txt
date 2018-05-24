@@ -24,7 +24,7 @@ SECTION Introduction
 
 Rabies is an under-rated disease
 
-SCALEFIG 0.8 figs/burden.png
+HFIG 0.8 webpix/burden.png
 
 CREDIT Lembo et.\ al, PLoS NTDs
 
@@ -32,19 +32,19 @@ CREDIT Lembo et.\ al, PLoS NTDs
 
 Rabies is scary
 
-WIDEFIG figs/dog_drawing.jpg
+WIDEFIG webpix/dog_drawing.jpg
 
 ----------------------------------------------------------------------
 
 Rabies is expensive
 
-WIDEFIG figs/typhoid.jpg
+WIDEFIG webpix/typhoid.jpg
 
 ----------------------------------------------------------------------
 
 Effective, economical control measures are available
 
-WIDEFIG figs/indian_vaccine.jpg
+WIDEFIG webpix/indian_vaccine.jpg
 
 ----------------------------------------------------------------------
 
@@ -55,7 +55,7 @@ SECTION Synchrony and periodicity
 
 Spatiotemporal patterns of rabies in Africa
 
-WIDEFIG figs/synchrony/F1incidence.talk.png
+WIDEFIG webpix/synchrony/F1incidence.talk.png
 
 CREDIT Hampson et al., PNAS, 2007
 
@@ -65,7 +65,7 @@ Synchrony
 
 BC
 
-COLFIG figs/synchrony/F1incidence.talk.png
+COLFIG webpix/synchrony/F1incidence.talk.png
 
 NC
 
@@ -79,7 +79,7 @@ Synchrony
 
 BC
 
-COLFIG figs/synchrony/F1incidence.talk.png
+COLFIG webpix/synchrony/F1incidence.talk.png
 
 NC
 
@@ -91,7 +91,7 @@ EC
 
 Geographic correlations
 
-SCALEFIG 0.9 figs/synchrony/Geography.pdf
+HFIG 0.9 webpix/synchrony/Geography.pdf
 
 ----------------------------------------------------------------------
 
@@ -99,7 +99,7 @@ Geographic correlations
 
 BC
 
-COLFIG figs/synchrony/Geography.pdf
+COLFIG webpix/synchrony/Geography.pdf
 
 NC
 
@@ -113,7 +113,7 @@ Geographic correlations
 
 BC
 
-COLFIG figs/synchrony/Geography.pdf
+COLFIG webpix/synchrony/Geography.pdf
 
 NC
 
@@ -125,7 +125,7 @@ EC
 
 Periodicity
 
-WIDEFIG figs/synchrony/F1incidence.talk.png
+WIDEFIG webpix/synchrony/F1incidence.talk.png
 
 	What is a fair way to compare these to a null (non-periodic) model?
 
@@ -133,7 +133,7 @@ WIDEFIG figs/synchrony/F1incidence.talk.png
 
 Periodicity
 
-WIDEFIG figs/synchrony/F1incidence.talk.png
+WIDEFIG webpix/synchrony/F1incidence.talk.png
 
 	Randomize _differences_ rather than observations
 
@@ -153,7 +153,7 @@ Results
 
 Explaining fast cycles
 
-SCALEFIG 0.9 figs/response_model.png
+HFIG 0.9 webpix/response_model.png
 
 ----------------------------------------------------------------------
 
@@ -178,19 +178,19 @@ SECTION Reservoirs
 
 Multiple populations
 
-WIDEFIG figs/hyenas.jpg
+WIDEFIG webpix/hyenas.jpg
 
 ----------------------------------------------------------------------
 
 Maintenance populations
 
-FIG figs/reservoir.jpg
+FIG webpix/reservoir.jpg
 
 ----------------------------------------------------------------------
 
 NW Tanzania study
 
-SCALEFIG 0.8 figs/tz_cases.png
+HFIG 0.8 webpix/tz_cases.png
 
 CREDIT Hampson et al.\ PLoS Biology
 
@@ -198,19 +198,19 @@ CREDIT Hampson et al.\ PLoS Biology
 
 Ngorongoro district
 
-FIG figs/pastoralist.jpg
+FIG webpix/pastoralist.jpg
 
 ----------------------------------------------------------------------
 
 Serengeti district
 
-FIG figs/nyamongo.jpg
+FIG webpix/nyamongo.jpg
 
 ----------------------------------------------------------------------
 
 Rabies cases identified
 
-FIG figs/lembo_spp.jpg
+FIG webpix/lembo_spp.jpg
 
 CREDIT Lembo et al. 2008 J. App.\ Ecol.
 
@@ -220,7 +220,7 @@ Model fitting
 
 BC
 
-WIDEFIG figs/lembo_ts.jpg
+WIDEFIG webpix/lembo_ts.jpg
 
 NC
 
@@ -236,7 +236,7 @@ Model fitting
 
 BC
 
-WIDEFIG figs/lembo_ts.jpg
+WIDEFIG webpix/lembo_ts.jpg
 
 NC
 
@@ -253,7 +253,7 @@ Model fitting
 
 BC
 
-COLFIG figs/reservoir.jpg
+COLFIG webpix/reservoir.jpg
 
 NC
 
@@ -272,7 +272,7 @@ SECTION Transmission details
 
 Serengeti and Ngorongoro districts
 
-SCALEFIG 0.8 figs/tz_cases.png
+HFIG 0.8 webpix/tz_cases.png
 
 CREDIT Hampson et al.\ PLoS Biology
 
@@ -280,7 +280,7 @@ CREDIT Hampson et al.\ PLoS Biology
 
 Contact tracing
 
-SCALEFIG 0.9 figs/Boyd3.png
+HFIG 0.9 webpix/Boyd3.png
 
 ----------------------------------------------------------------------
 
@@ -288,7 +288,7 @@ Distributions
 
 Time distributions
 
-SCALEFIG 0.9 figs/rabies_times.png
+HFIG 0.9 webpix/rabies_times.png
 
 ----------------------------------------------------------------------
 
@@ -310,25 +310,25 @@ Estimating $R_0$
 
 Estimating $R_0$
 
-SCALEFIG 0.9 figs/rabiesR0.png
+HFIG 0.9 webpix/rabiesR0.png
 
 ----------------------------------------------------------------------
 
 Vaccination campaigns
 
-SCALEFIG 0.9 figs/Boyd12.png
+HFIG 0.9 webpix/Boyd12.png
 
 ----------------------------------------------------------------------
 
 Vaccination and outbreaks
 
-SCALEFIG 0.9 figs/outbreak.png
+HFIG 0.9 webpix/outbreak.png
 
 ----------------------------------------------------------------------
 
 Demography
 
-WIDEFIG figs/puppies.jpg
+WIDEFIG webpix/puppies.jpg
 
 ----------------------------------------------------------------------
 
@@ -355,6 +355,6 @@ Open questions
 
 Thanks
 
-SCALEFIG 0.8 figs/Boyd7.png
+HFIG 0.8 webpix/Boyd7.png
 
 CREDIT Katie Hampson, Tiziana Lembo, many others
