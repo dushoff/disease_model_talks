@@ -64,6 +64,9 @@ my_images/%: my_images ;
 # my_images:
 #	$(LN) $(Drop)/$@ .
 
+## Transitioning (scary?)
+Sources += $(wildcard *.step)
+
 ######################################################################
 
 Sources += local.txt.format
