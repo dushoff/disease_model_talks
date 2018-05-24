@@ -1,3 +1,4 @@
+
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
 ### Seems to be working; used for DAIDD and now updating with submodules for MMED
@@ -55,7 +56,9 @@ Sources += beamer.tmp notes.tmp
 ## my_images should generate fake images if the real ones aren't there (so people can make when necessary)
 
 ## Lecture_images submodule nuked and won't come back. Investigate.
+## Or else move to newer paradigm (.step here)
 
+Ignore += web_drop
 web_drop/%: web_drop ;
 web_drop:
 	$(LNF) $(Drop)/courses/Lecture_images $@
@@ -133,6 +136,7 @@ rabies.draft.pdf: rabies.txt
 ## Taxonomy template
 
 Sources += taxonomy.jpg
+Ignore += taxon.jpg
 taxon.jpg: taxonomy.jpg Makefile
 	convert -crop 960x560+0+100 $< $@
 
