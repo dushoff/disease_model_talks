@@ -1,10 +1,5 @@
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
-### Seems to be working; used for DAIDD and now updating with submodules for MMED
-
-# https://github.com/dushoff/disease_model_talks/
-
-# https://github.com/dushoff/disease_model_talks/tree/master/git_push
 
 ##################################################################
 
