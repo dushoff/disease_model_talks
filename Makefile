@@ -66,8 +66,8 @@ web_drop:
 ## This is a mess; give it some thought?
 ## Probably should stick with a single images directory?
 my_images/%: my_images ;
-my_images:
-	$(LN) $(Drop)/$@ .
+# my_images:
+#	$(LN) $(Drop)/$@ .
 
 ######################################################################
 
