@@ -1,0 +1,360 @@
+
+EXTRA
+
+	This talk is descended from one of my first-ever MMED talks
+
+	In this form starting from the 2018 public lecture
+
+----------------------------------------------------------------------
+
+NOFRAME
+
+\newcommand{\jdtitle}{Math and rabies control}
+\newcommand{\years}{2010--2018} 
+
+----------------------------------------------------------------------
+
+ICI3D
+
+----------------------------------------------------------------------
+
+SECTION Introduction
+
+----------------------------------------------------------------------
+
+Rabies is an under-rated disease
+
+SCALEFIG 0.8 figs/burden.png
+
+CREDIT Lembo et.\ al, PLoS NTDs
+
+----------------------------------------------------------------------
+
+Rabies is scary
+
+WIDEFIG figs/dog_drawing.jpg
+
+----------------------------------------------------------------------
+
+Rabies is expensive
+
+WIDEFIG figs/typhoid.jpg
+
+----------------------------------------------------------------------
+
+Effective, economical control measures are available
+
+WIDEFIG figs/indian_vaccine.jpg
+
+----------------------------------------------------------------------
+
+
+SECTION Synchrony and periodicity
+
+----------------------------------------------------------------------
+
+Spatiotemporal patterns of rabies in Africa
+
+WIDEFIG figs/synchrony/F1incidence.talk.png
+
+CREDIT Hampson et al., PNAS, 2007
+
+----------------------------------------------------------------------
+
+Synchrony
+
+BC
+
+COLFIG figs/synchrony/F1incidence.talk.png
+
+NC
+
+	What is a fair way to compare these to a null (unsynchronized) model?
+
+EC
+
+----------------------------------------------------------------------
+
+Synchrony
+
+BC
+
+COLFIG figs/synchrony/F1incidence.talk.png
+
+NC
+
+	Randomize starting points, not each point individually
+
+EC
+
+----------------------------------------------------------------------
+
+Geographic correlations
+
+SCALEFIG 0.9 figs/synchrony/Geography.pdf
+
+----------------------------------------------------------------------
+
+Geographic correlations
+
+BC
+
+COLFIG figs/synchrony/Geography.pdf
+
+NC
+
+	What is a fair way to compare _these_ to a null model
+
+EC
+
+----------------------------------------------------------------------
+
+Geographic correlations
+
+BC
+
+COLFIG figs/synchrony/Geography.pdf
+
+NC
+
+	Randomize one of the _country lists_, not the individual points
+
+EC
+
+----------------------------------------------------------------------
+
+Periodicity
+
+WIDEFIG figs/synchrony/F1incidence.talk.png
+
+	What is a fair way to compare these to a null (non-periodic) model?
+
+----------------------------------------------------------------------
+
+Periodicity
+
+WIDEFIG figs/synchrony/F1incidence.talk.png
+
+	Randomize _differences_ rather than observations
+
+----------------------------------------------------------------------
+
+Results
+
+	Rabies in Africa is
+
+		Synchronized at a large spatial scale
+
+		Periodic
+
+		Fast (ie., cycles are faster than simple models can predict)
+
+----------------------------------------------------------------------
+
+Explaining fast cycles
+
+SCALEFIG 0.9 figs/response_model.png
+
+----------------------------------------------------------------------
+
+Conclusions
+
+	Rabies in Africa is synchronous and periodic
+
+	Synchrony may be due to weak coupling by cross-border transmission,
+	or by cross-border response
+
+		We don't believe it's due to temporal changes in reporting
+
+	Evidence for ebbs and flows in human response
+
+	Calls for a consistent, co-ordinated effort at control
+
+----------------------------------------------------------------------
+
+SECTION Reservoirs
+
+----------------------------------------------------------------------
+
+Multiple populations
+
+WIDEFIG figs/hyenas.jpg
+
+----------------------------------------------------------------------
+
+Maintenance populations
+
+FIG figs/reservoir.jpg
+
+----------------------------------------------------------------------
+
+NW Tanzania study
+
+SCALEFIG 0.8 figs/tz_cases.png
+
+CREDIT Hampson et al.\ PLoS Biology
+
+----------------------------------------------------------------------
+
+Ngorongoro district
+
+FIG figs/pastoralist.jpg
+
+----------------------------------------------------------------------
+
+Serengeti district
+
+FIG figs/nyamongo.jpg
+
+----------------------------------------------------------------------
+
+Rabies cases identified
+
+FIG figs/lembo_spp.jpg
+
+CREDIT Lembo et al. 2008 J. App.\ Ecol.
+
+----------------------------------------------------------------------
+
+Model fitting
+
+BC
+
+WIDEFIG figs/lembo_ts.jpg
+
+NC
+
+	Domestic dogs are a maintenance population
+
+	Wild carnivores as a whole are not
+
+EC
+
+----------------------------------------------------------------------
+
+Model fitting
+
+BC
+
+WIDEFIG figs/lembo_ts.jpg
+
+NC
+
+	Some amount of intervention in dogs alone should eliminate rabies
+	circulation in this population
+
+	No amount of intervention in the carnivore population alone will do this
+
+EC
+
+----------------------------------------------------------------------
+
+Model fitting
+
+BC
+
+COLFIG figs/reservoir.jpg
+
+NC
+
+	Some amount of intervention in dogs alone should eliminate rabies
+	circulation in this population
+
+	No amount of intervention in the carnivore population alone will do this
+
+EC
+
+----------------------------------------------------------------------
+
+SECTION Transmission details
+
+----------------------------------------------------------------------
+
+Serengeti and Ngorongoro districts
+
+SCALEFIG 0.8 figs/tz_cases.png
+
+CREDIT Hampson et al.\ PLoS Biology
+
+----------------------------------------------------------------------
+
+Contact tracing
+
+SCALEFIG 0.9 figs/Boyd3.png
+
+----------------------------------------------------------------------
+
+Distributions
+
+Time distributions
+
+SCALEFIG 0.9 figs/rabies_times.png
+
+----------------------------------------------------------------------
+
+Estimating $R_0$
+
+	We estimated $R_0$ in three ways:
+
+		Rate of spread compared to time distributions
+
+		Number of bites expected without control measures, $\times$
+		probability of infection
+
+		Epidemic tree reconstruction (similar to reservoir paper)
+
+	In the latter two cases we had a more than one estimate, depending
+	on different assumptions about unobserved events
+
+----------------------------------------------------------------------
+
+Estimating $R_0$
+
+SCALEFIG 0.9 figs/rabiesR0.png
+
+----------------------------------------------------------------------
+
+Vaccination campaigns
+
+SCALEFIG 0.9 figs/Boyd12.png
+
+----------------------------------------------------------------------
+
+Vaccination and outbreaks
+
+SCALEFIG 0.9 figs/outbreak.png
+
+----------------------------------------------------------------------
+
+Demography
+
+WIDEFIG figs/puppies.jpg
+
+----------------------------------------------------------------------
+
+Conclusions
+
+	Low $R_0$ means that elimination of canine rabies and thus the
+	public health threat of rabies is possible in this area
+
+		This implies that it should be possible in most or all areas of
+		the world -- it would be nice to know which
+
+	Fast dog demography means elimination is not as easy as might be
+	expected; co-ordinated, consistent effort is required
+
+----------------------------------------------------------------------
+
+Open questions
+
+	Why is $R_0$ for domestic dog transmission of rabies so consistently low?
+
+	Why is there little effect of dog density?
+
+----------------------------------------------------------------------
+
+Thanks
+
+SCALEFIG 0.8 figs/Boyd7.png
+
+CREDIT Katie Hampson, Tiziana Lembo, many others

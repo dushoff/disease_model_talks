@@ -12,11 +12,9 @@ EXTRA
 
 NOFRAME
 
-\newcommand{\jddate}{DAIDD 2017} 
 \newcommand{\jdtitle}{Foundations of dynamic modeling:}
 \newcommand{\jdsub}{The SIR Model Family}
-\newcommand{\jdauth}{Jonathan Dushoff, McMaster University}
-\newcommand{\years}{2013--2017} 
+\newcommand{\years}{2013--2018} 
 
 ----------------------------------------------------------------------
 
@@ -169,7 +167,7 @@ Spreadsheet implementation
 
 REP DIAGRAM SIR_model_family/sir.three.pdf
 
-\url{http://tinyurl.com/SIR-DAIDD-2017}
+\url{http://tinyurl.com/SIR-MMED-2018}
 
 ----------------------------------------------------------------------
 

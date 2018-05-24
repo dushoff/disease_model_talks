@@ -1,3 +1,4 @@
+
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
 
@@ -16,7 +17,8 @@ target: $(target)
 ## Also, no makestuff in mdirs!
 dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves Generation_distributions
 
-dfiles: $(dirs:%=%/Makefile)
+dfiles: 
+	git submodule update -i
 Sources += $(dirs)
 
 mdirs += $(dirs)
@@ -31,6 +33,8 @@ include sub.mk
 -include local.mk
 
 -include $(ms)/newtalk.def
+-include $(ms)/perl.def
+-include $(ms)/repos.def
 
 ##################################################################
 
@@ -47,14 +51,18 @@ Sources += beamer.tmp notes.tmp
 ## my_images should generate fake images if the real ones aren't there (so people can make when necessary)
 
 ## Lecture_images submodule nuked and won't come back. Investigate.
+## Or else move to newer paradigm (.step here)
 
+Ignore += web_drop
 web_drop/%: web_drop ;
 web_drop:
 	$(LNF) $(Drop)/courses/Lecture_images $@
 
+## This is a mess; give it some thought?
+## Probably should stick with a single images directory?
 my_images/%: my_images ;
-my_images:
-	$(LN) $(Drop)/$@ .
+# my_images:
+#	$(LN) $(Drop)/$@ .
 
 ######################################################################
 
@@ -89,7 +97,6 @@ live.Rout: live.R
 
 ##################################################################
 
-
 ### Dynamical foundations lecture debut NTU 2016
 ### Nice stuff about simple Jacobians and zooming, the idea of qualitative analysis …
 foundations.final.pdf: foundations.txt
@@ -117,9 +124,16 @@ pitch.pdf: pitch.tex
 
 ######################################################################
 
+## Rabies. Moved here for 2018 public talk
+
+rabies.draft.pdf: rabies.txt
+
+######################################################################
+
 ## Taxonomy template
 
 Sources += taxonomy.jpg
+Ignore += taxon.jpg
 taxon.jpg: taxonomy.jpg Makefile
 	convert -crop 960x560+0+100 $< $@
 
@@ -130,5 +144,6 @@ taxon.jpg: taxonomy.jpg Makefile
 
 -include $(ms)/modules.mk
 -include $(ms)/newtalk.mk
--include $(ms)/newlatex.mk
+-include $(ms)/texdeps.mk
 -include $(ms)/wrapR.mk
+-include $(ms)/webpix.mk
