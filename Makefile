@@ -63,6 +63,8 @@ web_drop/%: web_drop ;
 web_drop:
 	$(LNF) $(Drop)/courses/Lecture_images $@
 
+## This is a mess; give it some thought?
+## Probably should stick with a single images directory?
 my_images/%: my_images ;
 my_images:
 	$(LN) $(Drop)/$@ .
@@ -149,3 +151,4 @@ taxon.jpg: taxonomy.jpg Makefile
 -include $(ms)/newtalk.mk
 -include $(ms)/texdeps.mk
 -include $(ms)/wrapR.mk
+-include $(ms)/webpix.mk
