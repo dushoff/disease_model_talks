@@ -21,7 +21,8 @@ target: $(target)
 ## Also, no makestuff in mdirs!
 dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves Generation_distributions
 
-dfiles: $(dirs:%=%/Makefile)
+dfiles: 
+	git submodule update -i
 Sources += $(dirs)
 
 mdirs += $(dirs)
@@ -36,6 +37,8 @@ include sub.mk
 -include local.mk
 
 -include $(ms)/newtalk.def
+-include $(ms)/perl.def
+-include $(ms)/repos.def
 
 ##################################################################
 
@@ -94,7 +97,6 @@ live.Rout: live.R
 
 ##################################################################
 
-
 ### Dynamical foundations lecture debut NTU 2016
 ### Nice stuff about simple Jacobians and zooming, the idea of qualitative analysis …
 foundations.final.pdf: foundations.txt
@@ -122,6 +124,12 @@ pitch.pdf: pitch.tex
 
 ######################################################################
 
+## Rabies. Moved here for 2018 public talk
+
+rabies.draft.pdf: rabies.txt
+
+######################################################################
+
 ## Taxonomy template
 
 Sources += taxonomy.jpg
@@ -135,5 +143,5 @@ taxon.jpg: taxonomy.jpg Makefile
 
 -include $(ms)/modules.mk
 -include $(ms)/newtalk.mk
--include $(ms)/newlatex.mk
+-include $(ms)/texdeps.mk
 -include $(ms)/wrapR.mk
