@@ -58,12 +58,6 @@ web_drop/%: web_drop ;
 web_drop:
 	$(LNF) $(Drop)/courses/Lecture_images $@
 
-## This is a mess; give it some thought?
-## Probably should stick with a single images directory?
-my_images/%: my_images ;
-# my_images:
-#	$(LN) $(Drop)/$@ .
-
 ## Transitioning (scary?)
 Sources += $(wildcard *.step)
 
