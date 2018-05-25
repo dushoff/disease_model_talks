@@ -130,6 +130,7 @@ pitch.pdf: pitch.tex
 ## Rabies. Moved here for 2018 public talk
 
 rabies.draft.pdf: rabies.txt
+rabies.html: rabies.step
 
 ######################################################################
 
