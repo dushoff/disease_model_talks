@@ -7,6 +7,24 @@ EXTRA
 
 ----------------------------------------------------------------------
 
+EXTRA Outline
+
+Old stuff
+
+Burden
+
+Americas paper
+* https://docs.google.com/document/d/1YWC5109-EORVy1ICuqzCZMhRaLXOLXZXXLVyPACfVbw
+
+Surveillance for elimination paper
+* biorxiv?
+
+Pre- vs. post-vaccination 
+* (Gavi vaccine analysis)
+
+----------------------------------------------------------------------
+
+
 NOFRAME
 
 \newcommand{\jdtitle}{Math and rabies control}

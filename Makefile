@@ -85,6 +85,7 @@ dynamics.handouts.pdf: dynamics.txt
 family.draft.pdf: family.txt
 family.handouts.pdf: family.txt
 family.final.pdf: family.txt
+family.push: family.draft.pdf.gp family.handouts.pdf.gp
 
 ######################################################################
 
