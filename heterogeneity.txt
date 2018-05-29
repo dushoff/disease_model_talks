@@ -1,4 +1,25 @@
 
+EXTRA Todo
+
+* Logistic scales for proportion affected plots
+
+* Look into figure paradigm (still getting webfigs from SIR_model_family, for example)
+
+----------------------------------------------------------------------
+
+EXTRA MMED 2017 Notes (deleted those dealt with fully!)
+
+	* This was not added, remember for next year's schedule!
+● Explain dotted horizontal line as soon as it appears and what intersection means
+● Show model matching eq and not growth on slide 21 as well as vice versa
+● Use histogram of contact rates to explain ci and cs both going down
+● Needs more time, probably 10 min
+● With more time spend some on rescaling from R to c
+
+Heterogeneity tutorial needs white background for computer lab slides
+
+----------------------------------------------------------------------
+
 EXTRA
 
 	This talk seems to be converging to be the same at DAIDD and MMED;
@@ -10,8 +31,7 @@ NOFRAME
 
 \newcommand{\jdtitle}{Heterogeneity, contact patterns and modeling options}
 \newcommand{\jdsub}{}
-\newcommand{\jdauth}{Jonathan Dushoff, McMaster University}
-\newcommand{\years}{2013--2017} 
+\newcommand{\years}{2013--2018} 
 
 ----------------------------------------------------------------------
 
@@ -156,9 +176,11 @@ LANDFIG SIR_model_family/comp.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Model taxonomy
+EXTRA PSLIDE Model taxonomy
 
 FIG taxon.jpg
+
+Cut for time. Also, complicated. equilibrium analysis doesn't quite fit the taxonomy
 
 ----------------------------------------------------------------------
 
@@ -177,6 +199,18 @@ Equilibrium analysis
 		$\ds \frac SN = 1/R_0.  $
 
 	Proportion `affected' is $V = 1-S/N = 1-1/R_0$.
+
+----------------------------------------------------------------------
+
+Proportion affected
+
+	Proportion `affected' is $V = 1-S/N = 1-1/R_0$.
+
+		ANS The same formula as the critical vaccination proportion!
+
+		ANS If this proportion is made unavailable, the disease cannot spread
+
+		ANS At least, in the homogeneous case
 
 ----------------------------------------------------------------------
 
@@ -200,11 +234,15 @@ EC
 
 ----------------------------------------------------------------------
 
-Proportion affected and disease prevalence
+EXTRA Proportion affected and disease prevalence
+
+Cut for time. Expand lecture?
 
 	For diseases with no recovery, $V$ is the disease prevalence
 
-	For other diseases, the equilibrium value of $P=I/N$ will be equal to
+	For other diseases, $V$ still underlies prevalence:
+	
+		the equilibrium value of $P=I/N$ is
 	$V$ times the ratio of time spent sick to the time spent immune.
 
 	Example: measles before vaccination
@@ -275,23 +313,6 @@ Beyond homogeneity
 
 ----------------------------------------------------------------------
 
-EXTRA Heterogeneity among hosts
-
-	Differences among people are pervasive, large and often correlated
-
-	We often consider transmission probability as the product of two
-	components:
-
-		The "infector" has tendency to infect $\tau$
-
-		The "recipient" has susceptibility $\sigma$
-
-	Then $\Ro = p c D = (\sigma \tau) c D$,
-
-	Why do we assume this is multiplicative?
-
-----------------------------------------------------------------------
-
 Heterogeneity in TB
 
 BC
@@ -339,6 +360,25 @@ SEC Effects of heterogeneity
 
 ----------------------------------------------------------------------
 
+Heterogeneity among hosts
+
+	Differences among people are pervasive, large and often correlated
+
+	We often consider transmission probability as the product of two
+	components:
+
+		The "infector" has tendency to infect $\tau$
+
+		The "recipient" has susceptibility $\sigma$
+
+	Then $\Ro = p c D = (\sigma \tau) c D$,
+
+	Why do we assume this is multiplicative?
+
+		ANS Convenience, question this assumption
+
+----------------------------------------------------------------------
+
 Equilibrium calculations
 
 	Assume $p = \sigma\tau$ has a susceptibility component and a
@@ -347,6 +387,8 @@ Equilibrium calculations
 		$\Ro = \sigma\tau c D$
 
 		$\Reffec = \sigma\tau c D S/N$
+
+		Equilibrium $S/N = 1 - 1/\Ro$
 
 ----------------------------------------------------------------------
 
@@ -362,7 +404,19 @@ Equilibrium calculations with heterogeneity
 
 ----------------------------------------------------------------------
 
-Example
+RHEAD Equilibrium calculations with heterogeneity
+
+	$\Ro = \sigma_S\tau_I c_x D_I$
+	measured during \emph{invasion}
+
+	$\Reffec = \sigma_S\tau_I c_x D_I S/N$
+	measured at \emph{equilibrium}
+
+	Equilibrium $S/N \neq 1 - 1/\Ro$
+
+----------------------------------------------------------------------
+
+How does $\Rx$ change?
 
 	Imagine a disease spread by people who differ only in their
 	effective mixing rates

@@ -7,6 +7,18 @@ EXTRA
 
 ----------------------------------------------------------------------
 
+EXTRA Bio
+
+Jonathan Dushoff uses mathematical, statistical and computational methods to advance public health, with a particular focus on infectious diseases. Jonathan was raised and educated in the United States, and worked for two years in the Peace Corps in Swaziland. After receiving a Ph.D. from Princeton University, he did research in advocacy for four years in Taiwan. He is currently a professor in Hamilton, Canada. A founding member of the International Clinics on Infectious Disease Dynamics and Data, he has taught workshops at AIMS every year since 2007. He was recently appointed an Associate Researcher at the Stellenbosch Center for Excellence in something
+
+----------------------------------------------------------------------
+
+EXTRA Math and rabies control
+
+Rabies is a horrifying disease whose effects on humans are almost entirely preventable. Within the last decade rabies has been recognized as a global public-health priority, and some areas of the world have made large strides in control, while others continue to struggle. This talk will discuss the role of mathematical modeling, and novel statistical approaches, in: elucidating patterns of rabies spread; informing intervention strategies; and evaluating control progress and prospects
+
+----------------------------------------------------------------------
+
 EXTRA Outline
 
 Old stuff
@@ -23,7 +35,6 @@ Pre- vs. post-vaccination
 * (Gavi vaccine analysis)
 
 ----------------------------------------------------------------------
-
 
 NOFRAME
 
@@ -121,7 +132,7 @@ CFIG my_images/synchrony/Geography.pdf
 
 NC
 
-	What is a fair way to compare _these_ to a null model
+	What is a fair way to compare \emph{these} to a null model
 
 EC
 
@@ -135,7 +146,7 @@ CFIG my_images/synchrony/Geography.pdf
 
 NC
 
-	Randomize one of the _country lists_, not the individual points
+	Randomize one of the \emph{country lists}, not the individual points
 
 EC
 
@@ -153,7 +164,7 @@ Periodicity
 
 WIDEFIG my_images/synchrony/F1incidence.talk.png
 
-	Randomize _differences_ rather than observations
+	Randomize \emph{differences} rather than observations
 
 ----------------------------------------------------------------------
 

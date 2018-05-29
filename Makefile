@@ -70,6 +70,8 @@ Sources += copy.tex
 
 Sources += $(wildcard *.txt)
 
+%.push: %.draft.pdf.gp %.handouts.pdf.gp ;
+
 ######################################################################
 
 # Family/dynamics
@@ -85,7 +87,7 @@ dynamics.handouts.pdf: dynamics.txt
 family.draft.pdf: family.txt
 family.handouts.pdf: family.txt
 family.final.pdf: family.txt
-family.push: family.draft.pdf.gp family.handouts.pdf.gp
+family.push: 
 
 ######################################################################
 
@@ -108,6 +110,7 @@ foundations.handouts.pdf: foundations.txt
 heterogeneity.final.pdf: heterogeneity.txt
 heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt
+heterogeneity.push:
 
 ### Fitting (Williams/Hargrove/Pulliam)
 ### NTU 2016-4
