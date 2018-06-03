@@ -1,4 +1,6 @@
 
+## Should just replace this with a container-thing when you get the chance.
+
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
 
@@ -19,6 +21,7 @@ dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data LatexT
 
 dfiles: 
 	git submodule update -i
+
 Sources += $(dirs)
 
 mdirs += $(dirs)
@@ -60,6 +63,12 @@ web_drop:
 
 ## Transitioning (scary?)
 Sources += $(wildcard *.step)
+
+######################################################################
+
+## Sandbox
+
+Endemic_curves/propCurves.Rout.pdf: Endemic_curves/propCurves.R
 
 ######################################################################
 
@@ -126,9 +135,13 @@ pitch.pdf: pitch.tex
 ######################################################################
 
 ## Rabies. Moved here for 2018 public talk
+## Using .step for this talk, but I think not most of the others here yet
 
 rabies.draft.pdf: rabies.txt
 rabies.html: rabies.step
+
+TREE_crop.jpg: webpix/TREE.jpg
+	convert -crop 300x240+40+100 $< $@
 
 ######################################################################
 

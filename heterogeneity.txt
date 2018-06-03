@@ -39,31 +39,6 @@ ICI3D
 
 ----------------------------------------------------------------------
 
-EXTRA
-
-Heterogeneity, contact patterns and modeling options
-
-\begin{center}
-
-\vfill
-\vfill
-
-Jonathan Dushoff, McMaster University
-
-\url{http://lalashan.mcmaster.ca/DushoffLab}
-
-\vfill
-
-DAIDD 2016
-
-\url{http://www.ici3d.org/daidd/}
-
-\vfill
-
-\end{center}
-
-----------------------------------------------------------------
-
 Goals
 
 	Explain the importance of heterogeneity on patterns of disease spread
@@ -183,7 +158,6 @@ FIG taxon.jpg
 Cut for time. Also, complicated. equilibrium analysis doesn't quite fit the taxonomy
 
 ----------------------------------------------------------------------
-
 
 Equilibrium analysis 
 

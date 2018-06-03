@@ -5,6 +5,10 @@ EXTRA
 
 	In this form starting from the 2018 public lecture
 
+	~/Dropbox/ICI3D_Materials/MMED2018/LectureSlides/mentor_research/ModellingRabiesElimination_MMED2018_Thumbi.pdf
+
+	http://www.who.int/rabies/en
+
 ----------------------------------------------------------------------
 
 EXTRA Bio
@@ -51,6 +55,15 @@ SECTION Introduction
 
 ----------------------------------------------------------------------
 
+
+TSS What is rabies?
+
+	A fatal, viral disease
+
+	Transmitted by saliva, usually via bites
+
+----------------------------------------------------------------------
+
 Rabies is an under-rated disease
 
 HFIG 0.8 my_images/burden.png
@@ -77,8 +90,112 @@ WIDEFIG webpix/indian_vaccine.jpg
 
 ----------------------------------------------------------------------
 
+Dog-mediated rabies is slated for elimination
 
-SECTION Synchrony and periodicity
+WIDEFIG webpix/wrd.png
+
+----------------------------------------------------------------------
+
+TSS What is math?
+
+	American for maths
+
+	A well-defined framework for thinking about how assumptions relate to
+	conclusions
+
+	A powerful tool for helping to ask scientific questions
+
+----------------------------------------------------------------------
+
+Dynamical modeling connects scales
+
+REP DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+
+	Start with rules about how things change in short time steps
+
+		Usually based on \emph{individuals}
+
+	Calculate results over longer time periods
+
+		Usually about \emph{populations}
+
+----------------------------------------------------------------------
+
+Statistics evaluates patterns
+
+WIDEFIG my_images/synchrony/F1incidence.talk.png
+
+\vspace{-2em}
+
+CREDIT Hampson et al., PNAS, 2007
+
+----------------------------------------------------------------------
+
+TSEC Math and disease elimination
+
+WIDEFIG TREE_crop.jpg
+
+----------------------------------------------------------------------
+
+The basic reproductive number
+
+	$\Ro$ is the number of people who would be infected by an
+	infectious individual \emph{in a fully susceptible population.}
+
+	$\Ro = c p D$
+
+		$c$: Contact Rate
+
+		$p$: Probability of transmission (infectivity)
+
+		$D$: Average duration of infection
+
+	A disease can invade a population if and only if $\Ro>1$.
+
+	\Rx\ usually declines from \Ro\ if the disease spreads (fewer people are
+	susceptible)
+
+----------------------------------------------------------------------
+
+RHEAD Endemic curves
+
+BC
+
+CFIG Endemic_curves/propCurves.Rout-3.pdf
+
+NC
+
+	Threshold value
+
+	Sharp response to changes in factors underlying transmission 
+
+	Implications for control
+
+EC
+
+----------------------------------------------------------------------
+
+Speed and risk
+
+BC
+
+	Which is more dangerous, a fast disease, or a slow disease?
+
+		How are we measuring speed?
+
+		How are we measuring danger?
+
+		\emph{What do we already know?}
+
+NC
+
+SIDEFIG SIR_model_family/generationTime.Rout-0.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+SECTION Patterns of spread in Africa
 
 ----------------------------------------------------------------------
 
@@ -86,31 +203,27 @@ Spatiotemporal patterns of rabies in Africa
 
 WIDEFIG my_images/synchrony/F1incidence.talk.png
 
+\vspace{-2em}
+
 CREDIT Hampson et al., PNAS, 2007
 
 ----------------------------------------------------------------------
 
-Synchrony
+TSS Statistics
 
-BC
-
-CFIG my_images/synchrony/F1incidence.talk.png
-
-NC
-
-	What is a fair way to compare these to a null (unsynchronized) model?
-
-EC
+	What patterns do we see?
 
 ----------------------------------------------------------------------
 
 Synchrony
 
-BC
+BCC
 
 CFIG my_images/synchrony/F1incidence.talk.png
 
-NC
+NCC
+
+	What is a fair way to compare these to a null (unsynchronized) model?
 
 	Randomize starting points, not each point individually
 
@@ -126,25 +239,13 @@ HFIG 0.9 my_images/synchrony/Geography.pdf
 
 Geographic correlations
 
-BC
+BCC
 
 CFIG my_images/synchrony/Geography.pdf
 
-NC
+NCC
 
 	What is a fair way to compare \emph{these} to a null model
-
-EC
-
-----------------------------------------------------------------------
-
-Geographic correlations
-
-BC
-
-CFIG my_images/synchrony/Geography.pdf
-
-NC
 
 	Randomize one of the \emph{country lists}, not the individual points
 
@@ -156,15 +257,21 @@ Periodicity
 
 WIDEFIG my_images/synchrony/F1incidence.talk.png
 
-	What is a fair way to compare these to a null (non-periodic) model?
-
 ----------------------------------------------------------------------
 
 Periodicity
 
-WIDEFIG my_images/synchrony/F1incidence.talk.png
+BCC
+
+CFIG my_images/synchrony/F1incidence.talk.png
+
+NCC
+
+	What is a fair way to compare these to a null (non-periodic) model?
 
 	Randomize \emph{differences} rather than observations
+
+EC
 
 ----------------------------------------------------------------------
 
@@ -180,6 +287,16 @@ Results
 
 ----------------------------------------------------------------------
 
+TSS Dynamical models
+
+	What might explain the patterns that we see?
+
+	Based on observations of health systems, we hypothesized that humans are \emph{responding} to rabies outbreaks
+
+		Vaccination, education, awareness
+
+----------------------------------------------------------------------
+
 Explaining fast cycles
 
 HFIG 0.9 my_images/response_model.png
@@ -190,18 +307,23 @@ Conclusions
 
 	Rabies in Africa is synchronous and periodic
 
-	Synchrony may be due to weak coupling by cross-border transmission,
-	or by cross-border response
+	Synchrony between countries may be due to border crossing
 
-		We don't believe it's due to temporal changes in reporting
+		by rabid dogs
 
-	Evidence for ebbs and flows in human response
+		or by human ideas
 
-	Calls for a consistent, co-ordinated effort at control
+		not likely to be simply due to reporting
+
+	Governments should:
+
+		all contribute to the effort
+
+		be consistent through time
 
 ----------------------------------------------------------------------
 
-SECTION Reservoirs
+SECTION What species are important?
 
 ----------------------------------------------------------------------
 
@@ -220,6 +342,8 @@ FIG webpix/reservoir.jpg
 NW Tanzania study
 
 HFIG 0.8 my_images/tz_cases.png
+
+\vspace{-2em}
 
 CREDIT Hampson et al.\ PLoS Biology
 
@@ -303,6 +427,8 @@ Serengeti and Ngorongoro districts
 
 HFIG 0.8 my_images/tz_cases.png
 
+\vspace{-2em}
+
 CREDIT Hampson et al.\ PLoS Biology
 
 ----------------------------------------------------------------------
@@ -385,5 +511,7 @@ Open questions
 Thanks
 
 HFIG 0.8 my_images/Boyd7.png
+
+\vspace{-2em}
 
 CREDIT Katie Hampson, Tiziana Lembo, many others
