@@ -140,6 +140,7 @@ pitch.pdf: pitch.tex
 rabies.draft.pdf: rabies.txt
 rabies.html: rabies.step
 
+Ignore += TREE_crop.jpg
 TREE_crop.jpg: webpix/TREE.jpg
 	convert -crop 300x240+40+100 $< $@
 
