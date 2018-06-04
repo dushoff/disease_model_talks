@@ -55,7 +55,6 @@ SECTION Introduction
 
 ----------------------------------------------------------------------
 
-
 TSS What is rabies?
 
 	A fatal, viral disease
@@ -192,6 +191,24 @@ NC
 SIDEFIG SIR_model_family/generationTime.Rout-0.pdf
 
 EC
+
+----------------------------------------------------------------------
+
+Speed and risk
+
+FIG SIR_simulations/hiv_generations.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Speed and risk
+
+FIG SIR_simulations/hiv_generations.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Speed and risk
+
+DOUBLEPDF SIR_simulations/hiv_generations.Rout
 
 ----------------------------------------------------------------------
 
@@ -481,12 +498,6 @@ HFIG 0.9 my_images/outbreak.png
 
 ----------------------------------------------------------------------
 
-Demography
-
-WIDEFIG webpix/puppies.jpg
-
-----------------------------------------------------------------------
-
 Conclusions
 
 	Low $R_0$ means that elimination of canine rabies and thus the
@@ -500,7 +511,7 @@ Conclusions
 
 ----------------------------------------------------------------------
 
-Open questions
+EXTRA Open questions
 
 	Why is $R_0$ for domestic dog transmission of rabies so consistently low?
 
@@ -508,10 +519,92 @@ Open questions
 
 ----------------------------------------------------------------------
 
+TSEC Other topics
+
+	Math is a wonderful tool!
+
+----------------------------------------------------------------------
+
+Learning from Latin America
+
+FIG my_images/lac_overview.png
+
+CREDIT Harris \ldots Hampson, in prep
+
+	Patterns of rabies decline
+
+----------------------------------------------------------------------
+
+Verifying elimination
+
+CREDIT Hampson et al \url{https://www.biorxiv.org/content/early/2016/12/31/096883}
+
+FIG my_images/active_chart.png
+
+----------------------------------------------------------------------
+
+Demography
+
+WFIG 0.8 webpix/puppies.jpg
+
+	How long do dogs live? How does this effect vaccination campaigns? What
+	would be the effect of sterilization?
+
+----------------------------------------------------------------------
+
+How does human vaccination fit in?
+
+WIDEFIG webpix/typhoid.jpg
+
+----------------------------------------------------------------------
+
+SEC Conclusions
+
+----------------------------------------------------------------------
+
+Get it right
+
+BC
+
+CFIG webpix/measure.jpg
+
+NC
+
+	Measure twice, cut once
+
+	Calculate twice, implement policy once
+
+	Dynamic models and statistics are our measuring devices
+
+EC
+
+----------------------------------------------------------------------
+
+Get it done
+
+HFIG 0.7 my_images/child_dog.png
+
+Mass vaccination of domestic dogs should lead to:
+
+	elimination of canine rabies
+
+	decrease of $100\times$ or more in rabid bites and deaths
+
+----------------------------------------------------------------------
+
 Thanks
 
-HFIG 0.8 my_images/Boyd7.png
+	Public and workshop participants
 
-\vspace{-2em}
+	AIMS
 
-CREDIT Katie Hampson, Tiziana Lembo, many others
+	Katie Hampson and Glasgow group
+
+	Other co-authors
+
+	Thumbi Mwangi
+
+	\ldots
+
+----------------------------------------------------------------------
+
