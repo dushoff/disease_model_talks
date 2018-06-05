@@ -134,7 +134,19 @@ pitch.pdf: pitch.tex
 
 ######################################################################
 
+## Stochastic stuff
+## Rescuing from MMXD lectures project on wiki
+
+Sources += ds2007.lect stochastic.lect
+
+stochastic.final.pdf: stochastic.txt
+stochastic.draft.pdf: stochastic.txt
+stochastic.html: stochastic.step
+
+######################################################################
+
 ## Rabies. Moved here for 2018 public talk
+## It's been all over (including its own Workshops module??)
 ## Using .step for this talk, but I think not most of the others here yet
 
 rabies.final.pdf: rabies.txt
