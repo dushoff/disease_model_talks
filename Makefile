@@ -137,6 +137,7 @@ pitch.pdf: pitch.tex
 ## Rabies. Moved here for 2018 public talk
 ## Using .step for this talk, but I think not most of the others here yet
 
+rabies.final.pdf: rabies.txt
 rabies.draft.pdf: rabies.txt
 rabies.html: rabies.step
 

@@ -230,6 +230,8 @@ TSS Statistics
 
 	What patterns do we see?
 
+	How clearly do we see them?
+
 ----------------------------------------------------------------------
 
 Synchrony
@@ -331,6 +333,8 @@ Conclusions
 		or by human ideas
 
 		not likely to be simply due to reporting
+
+	Periodicity is likely driven by human responses (and their lack)
 
 	Governments should:
 
@@ -436,6 +440,23 @@ EC
 
 ----------------------------------------------------------------------
 
+Which species are important?
+
+BC
+
+	Vaccination in domestic dogs can eliminate canine rabies strains from
+	Serengeti and Ngorongoro districts
+
+	Maybe from everywhere!
+
+NC
+
+CFIG webpix/dog_resting.jpg
+
+EC
+
+----------------------------------------------------------------------
+
 SECTION Transmission details
 
 ----------------------------------------------------------------------
@@ -456,17 +477,15 @@ HFIG 0.9 my_images/Boyd3.png
 
 ----------------------------------------------------------------------
 
-Distributions
-
 Time distributions
 
 HFIG 0.9 my_images/rabies_times.png
 
 ----------------------------------------------------------------------
 
-Estimating $R_0$
+Estimating \Ro
 
-	We estimated $R_0$ in three ways:
+	We estimated \Ro\ in three ways:
 
 		Rate of spread compared to time distributions
 
@@ -480,7 +499,7 @@ Estimating $R_0$
 
 ----------------------------------------------------------------------
 
-Estimating $R_0$
+Estimating \Ro
 
 HFIG 0.9 my_images/rabiesR0.png
 
@@ -500,20 +519,20 @@ HFIG 0.9 my_images/outbreak.png
 
 Conclusions
 
-	Low $R_0$ means that elimination of canine rabies and thus the
+	Low \Ro\ means that elimination of canine rabies and thus the
 	public health threat of rabies is possible in this area
 
 		This implies that it should be possible in most or all areas of
 		the world -- it would be nice to know which
 
-	Fast dog demography means elimination is not as easy as might be
-	expected; co-ordinated, consistent effort is required
+	Short dog lifespans make elimination harder;
+	co-ordinated, consistent effort is required
 
 ----------------------------------------------------------------------
 
 EXTRA Open questions
 
-	Why is $R_0$ for domestic dog transmission of rabies so consistently low?
+	Why is \Ro\ for domestic dog transmission of rabies so consistently low?
 
 	Why is there little effect of dog density?
 
@@ -521,7 +540,15 @@ EXTRA Open questions
 
 TSEC Other topics
 
+BCC
+
 	Math is a wonderful tool!
+
+NCC
+
+CFIG webpix/wrench.png
+
+EC
 
 ----------------------------------------------------------------------
 
@@ -584,6 +611,8 @@ Get it done
 
 HFIG 0.7 my_images/child_dog.png
 
+CREDIT \hfill\ Photo by @matthewmuturi
+
 Mass vaccination of domestic dogs should lead to:
 
 	elimination of canine rabies
@@ -598,9 +627,7 @@ Thanks
 
 	AIMS
 
-	Katie Hampson and Glasgow group
-
-	Other co-authors
+	Katie Hampson, Glasgow group and other co-authors
 
 	Thumbi Mwangi
 
