@@ -1,4 +1,24 @@
 
+EXTRA
+
+	Originally developed in Muizenberg 2007!
+
+	Given for a couple of years and eventually dropped (there's a book chapter, and source is currently on Dropbox)
+
+	Resurrected hastily for MMED 2018
+
+----------------------------------------------------------------------
+
+NOFRAME
+
+\newcommand{\jdtitle}{Stochastic models:}
+\newcommand{\jdsub}{Concepts and analysis}
+\newcommand{\years}{2007--2018} 
+
+----------------------------------------------------------------------
+
+ICI3D
+
 SEC Introduction
 
 ----------------------------------------------------------------------
@@ -118,7 +138,7 @@ Realizations and ensembles
 		the population to be in at time $t$ is called the {\em ensemble
 		distribution}
 
-			Knowing how the ensemble distribution evolves is not the same
+			IGNORE Knowing how the ensemble distribution evolves is not the same
 			as understanding the whole ensemble
 
 ----------------------------------------------------------------------
