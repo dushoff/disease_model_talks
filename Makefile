@@ -79,7 +79,10 @@ Sources += copy.tex
 
 Sources += $(wildcard *.txt)
 
-%.push: %.draft.pdf.gp %.handouts.pdf.gp ;
+%.push: %.slides.pdf.gp %.handouts.pdf.gp ;
+
+%.slides.pdf: %.draft.pdf
+	$(copy)
 
 ######################################################################
 
@@ -141,7 +144,9 @@ Sources += ds2007.lect stochastic.lect
 
 stochastic.final.pdf: stochastic.txt
 stochastic.draft.pdf: stochastic.txt
+stochastic.handouts.pdf: stochastic.txt
 stochastic.html: stochastic.step
+stochastic.push:
 
 ######################################################################
 

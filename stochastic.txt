@@ -496,5 +496,5 @@ TSEC Conclusions
 
 		Simulating realizations
 
-	Remember: demographic stochasticity is real!
+	Remember: People are individuals $\implies$ demographic stochasticity is real!
 
