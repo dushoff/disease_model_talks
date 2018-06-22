@@ -12,15 +12,36 @@ target = Makefile
 -include target.mk
 target: $(target)
 
+######################################################################
+
+## makestuff
+
+Sources += Makefile .ignore 
+Ignore += .gitignore
+
+msrepo = https://github.com/dushoff
+ms = makestuff
+Ignore += local.mk
+-include local.mk
+-include $(ms)/os.mk
+
+# -include $(ms)/perl.def
+
+Sources += $(ms)
+Makefile: $(ms) $(ms)/Makefile
+$(ms):
+	git submodule add -b master $(msrepo)/$(ms)
+
+## Only meant to work with makestuff.sub
+$(ms)/%.mk: $(ms) $(ms)/Makefile ;
+$(ms)/Makefile:
+	git submodule update -i
+
 ##################################################################
 
 ## Content sources
 ## WARNING: Slashes can kill!!
-## Also, no makestuff in mdirs!
 dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves Generation_distributions
-
-dfiles: 
-	git submodule update -i
 
 Sources += $(dirs)
 
@@ -30,10 +51,8 @@ mdirs += $(dirs)
 
 # make files
 
-Sources += Makefile .ignore README.md sub.mk LICENSE.md notes.txt
+Sources += Makefile .ignore README.md LICENSE.md notes.txt
 Drop = ~/Dropbox
-include sub.mk
--include local.mk
 
 -include $(ms)/newtalk.def
 -include $(ms)/perl.def
