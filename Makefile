@@ -1,6 +1,4 @@
 
-## Should just replace this with a container-thing when you get the chance.
-
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
 
@@ -68,19 +66,8 @@ Sources += beamer.tmp notes.tmp
 
 ## Drop stuff
 
-## This should be replaced by a more principled approach, but not right this very second
-## Images need to have an automatic makefile added, so they can be made by others; the files need a Drop. Other Drops should probably just be repos (or merged into repos)
-## my_images should generate fake images if the real ones aren't there (so people can make when necessary)
-
-## Lecture_images submodule nuked and won't come back. Investigate.
-## Or else move to newer paradigm (.step here)
-
-Ignore += web_drop
-web_drop/%: web_drop ;
-web_drop:
-	$(LNF) $(Drop)/courses/Lecture_images $@
-
-## Transitioning (scary?)
+## Dropping web_drop and changing to webpix
+## Old step files in ~/gitroot/Lecture_images, I guess
 Sources += $(wildcard *.step)
 
 ######################################################################
