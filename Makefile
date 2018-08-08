@@ -107,6 +107,13 @@ family.handouts.pdf: family.txt
 family.final.pdf: family.txt
 family.push: 
 
+### Ebola-themed talk for Hiroshi
+
+lessons.draft.pdf: lessons.txt
+lessons.handouts.pdf: lessons.txt
+lessons.final.pdf: lessons.txt
+lessons.push: 
+
 ######################################################################
 
 Sources += $(wildcard *.R)
