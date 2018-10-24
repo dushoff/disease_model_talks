@@ -39,7 +39,8 @@ $(ms)/Makefile:
 
 ## Content sources
 ## WARNING: Slashes can kill!!
-dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data LatexTemplates Birth_death_models Endemic_curves Generation_distributions
+dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data Birth_death_models Endemic_curves Generation_distributions
+resting += LatexTemplates 
 
 Sources += $(dirs)
 
