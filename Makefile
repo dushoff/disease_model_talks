@@ -108,6 +108,7 @@ family.final.pdf: family.txt
 family.push: 
 
 ### Ebola-themed talk for Hiroshi
+### Not done
 
 lessons.draft.pdf: lessons.txt
 lessons.handouts.pdf: lessons.txt
