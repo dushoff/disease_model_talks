@@ -108,7 +108,7 @@ TSS What is math?
 
 Dynamical modeling connects scales
 
-REP DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+REP DBFIG 0.7 SIR_model_family/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 
 	Start with rules about how things change in short time steps
 
