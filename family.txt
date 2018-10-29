@@ -39,7 +39,7 @@ Goals
 
 Dynamical modeling connects scales
 
-REP DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+REP DBFIG 0.7 my_images/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 
 	Start with rules about how things change in short time steps
 
@@ -217,7 +217,7 @@ More about transmission
 
 BC
 
-SIDEFIG web_drop/trans.jpg
+SIDEFIG my_images/trans.jpg
 
 NC
 

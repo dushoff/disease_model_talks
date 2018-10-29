@@ -1,8 +1,8 @@
 \documentclass{beamer}
 
-\input{LatexTemplates/ici3dTemplate.tex}
-\input{LatexTemplates/ici3dCurrent.tex}
-\input{LatexTemplates/bulletspace.tex}
+%% \input{LatexTemplates/ici3dTemplate.tex}
+%% \input{LatexTemplates/ici3dCurrent.tex}
+\input{talkdir/bulletspace.tex}
 
 \usepackage{talkdir/slidecomm,talkdir/commands}
 \usepackage{graphicx,xspace}
@@ -17,6 +17,6 @@
 
 ----------------------------------------------------------------------
 
-\input{LatexTemplates/ici3dClose.tex}
+%% \input{LatexTemplates/ici3dClose.tex}
 
 \end{document}

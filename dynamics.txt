@@ -1,4 +1,10 @@
 
+EXTRA Updating fig links on an airplane. Figure this out the next time you look.
+
+Search tmpfigs
+
+----------------------------------------------------------------------
+
 Introduction to dynamical modeling
 
 Jonathan Dushoff, McMaster University
@@ -32,7 +38,7 @@ Goals
 
 Dynamic modeling connects scales
 
-PIC DBFIG 0.7 web_drop/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
+PIC DBFIG 0.7 tmpfigs/trans.jpg 1 Disease_data/ewmeas.Rout.pdf
 
 	Start with rules about how things change in short time steps
 
@@ -58,7 +64,7 @@ BC
 
 NC
 
-SIDEFIG web_drop/dandy_field.jpg
+SIDEFIG tmpfigs/dandy_field.jpg
 
 EC
 
@@ -80,7 +86,7 @@ BC
 
 NC
 
-SIDEFIG web_drop/flat.png
+SIDEFIG tmpfigs/flat.png
 
 EC
 
@@ -195,7 +201,7 @@ BC
 
 NC
 
-SIDEFIG web_drop/violet_bacteria.jpg
+SIDEFIG tmpfigs/violet_bacteria.jpg
 
 EC
 

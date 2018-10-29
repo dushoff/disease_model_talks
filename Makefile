@@ -51,7 +51,8 @@ mdirs += $(dirs)
 # make files
 
 Sources += Makefile .ignore README.md LICENSE.md notes.txt
-Drop = ~/Dropbox
+## Drop = ~/Dropbox ## Why was this good?
+imageDrop = ~/Dropbox/disease_model_lectures/
 
 -include $(ms)/newtalk.def
 -include $(ms)/perl.def
@@ -102,6 +103,14 @@ dynamics.final.pdf: dynamics.txt
 dynamics.draft.pdf: dynamics.txt
 dynamics.handouts.pdf: dynamics.txt
 
+tmpfigs:
+	$(MKDIR)
+
+tmpfigs/%: ~/Dropbox/HIV_presentations/images/%
+	$(copy)
+
+## Cribbing on airplane, see dynamics.txt
+
 ### ICI3D model family lectures
 family.draft.pdf: family.txt
 family.handouts.pdf: family.txt
@@ -138,6 +147,9 @@ heterogeneity.final.pdf: heterogeneity.txt
 heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt
 heterogeneity.push:
+
+%.png: %.svg
+	$(convert)
 
 ### Fitting (Williams/Hargrove/Pulliam)
 ### NTU 2016-4
