@@ -1,5 +1,4 @@
 # disease_model_talks
-### Started in Taiwan 2016. Meant to unify different existing talk frameworks
 
 ##################################################################
 
@@ -101,7 +100,7 @@ dynamics.draft.pdf: dynamics.txt
 dynamics.handouts.pdf: dynamics.txt
 
 tmpfigs:
-	$(MKDIR)
+	$(mkdir)
 
 tmpfigs/%: ~/Dropbox/HIV_presentations/images/%
 	$(copy)
