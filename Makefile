@@ -98,6 +98,7 @@ dynamics.final.pdf: dynamics.txt
 dynamics.draft.pdf: dynamics.txt
 dynamics.handouts.pdf: dynamics.txt
 
+Ignore += tmpfigs
 tmpfigs:
 	$(mkdir)
 
