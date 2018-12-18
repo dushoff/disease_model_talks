@@ -28,7 +28,6 @@ Makefile: $(ms) $(ms)/Makefile
 $(ms):
 	git submodule add -b master $(msrepo)/$(ms)
 
-## Only meant to work with makestuff.sub
 $(ms)/%.mk: $(ms) $(ms)/Makefile ;
 $(ms)/Makefile:
 	git submodule update -i
