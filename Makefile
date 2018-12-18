@@ -38,9 +38,8 @@ $(ms)/Makefile:
 ##################################################################
 
 ## Content sources
-## WARNING: Slashes can kill!!
+## WARNING: No slashes!!
 dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data Birth_death_models Endemic_curves Generation_distributions LatexTemplates
-resting += LatexTemplates 
 
 Sources += $(dirs)
 
@@ -51,7 +50,6 @@ mdirs += $(dirs)
 # make files
 
 Sources += Makefile .ignore README.md LICENSE.md notes.txt
-## Drop = ~/Dropbox ## Why was this good?
 imageDrop = ~/Dropbox/disease_model_lectures/
 
 -include $(ms)/newtalk.def
