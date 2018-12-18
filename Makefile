@@ -1,4 +1,3 @@
-
 # disease_model_talks
 ### Started in Taiwan 2016. Meant to unify different existing talk frameworks
 
