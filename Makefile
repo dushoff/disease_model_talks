@@ -40,6 +40,7 @@ dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data Birth_
 
 Sources += $(dirs)
 
+mdirs += $(dirs)
 alldirs += $(dirs)
 
 ######################################################################
