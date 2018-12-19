@@ -427,6 +427,13 @@ WFIG 0.8 SIR_model_family/simpson.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
+REPSLIDE Simulated population
+
+WFIG 0.8 SIR_model_family/simpson.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+
 Simpson's paradox
 
 PIC DBFIG 0.8 tmpfigs/farmers.jpg 0.8 tmpfigs/senate.jpg
