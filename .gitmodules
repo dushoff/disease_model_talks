@@ -23,3 +23,6 @@
 	path = makestuff
 	url = https://github.com/dushoff/makestuff
 	branch = master
+[submodule "LatexTemplates"]
+	path = LatexTemplates
+	url = https://github.com/ICI3D/LatexTemplates.git

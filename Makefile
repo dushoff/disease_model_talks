@@ -1,6 +1,4 @@
-
 # disease_model_talks
-### Started in Taiwan 2016. Meant to unify different existing talk frameworks
 
 ##################################################################
 
@@ -30,7 +28,6 @@ Makefile: $(ms) $(ms)/Makefile
 $(ms):
 	git submodule add -b master $(msrepo)/$(ms)
 
-## Only meant to work with makestuff.sub
 $(ms)/%.mk: $(ms) $(ms)/Makefile ;
 $(ms)/Makefile:
 	git submodule update -i
@@ -38,20 +35,19 @@ $(ms)/Makefile:
 ##################################################################
 
 ## Content sources
-## WARNING: Slashes can kill!!
-dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data Birth_death_models Endemic_curves Generation_distributions
-resting += LatexTemplates 
+## WARNING: No slashes!!
+dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data Birth_death_models Endemic_curves Generation_distributions LatexTemplates
 
 Sources += $(dirs)
 
 mdirs += $(dirs)
+alldirs += $(dirs)
 
 ######################################################################
 
 # make files
 
 Sources += Makefile .ignore README.md LICENSE.md notes.txt
-## Drop = ~/Dropbox ## Why was this good?
 imageDrop = ~/Dropbox/disease_model_lectures/
 
 -include $(ms)/newtalk.def
@@ -103,8 +99,9 @@ dynamics.final.pdf: dynamics.txt
 dynamics.draft.pdf: dynamics.txt
 dynamics.handouts.pdf: dynamics.txt
 
+Ignore += tmpfigs
 tmpfigs:
-	$(MKDIR)
+	$(mkdir)
 
 %.png: %.svg
 	$(convert)
