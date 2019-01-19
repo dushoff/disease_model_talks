@@ -40,6 +40,7 @@ dirs += SIR_simulations Exponential_figures SIR_model_family Disease_data Birth_
 
 Sources += $(dirs)
 
+mdirs += $(dirs)
 alldirs += $(dirs)
 
 ######################################################################
@@ -102,6 +103,9 @@ Ignore += tmpfigs
 tmpfigs:
 	$(mkdir)
 
+%.png: %.svg
+	$(convert)
+
 tmpfigs/%: ~/Dropbox/HIV_presentations/images/%
 	$(copy)
 
@@ -143,9 +147,6 @@ heterogeneity.final.pdf: heterogeneity.txt
 heterogeneity.draft.pdf: heterogeneity.txt
 heterogeneity.handouts.pdf: heterogeneity.txt
 heterogeneity.push:
-
-%.png: %.svg
-	$(convert)
 
 ### Fitting (Williams/Hargrove/Pulliam)
 ### NTU 2016-4
