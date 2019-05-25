@@ -26,3 +26,7 @@
 [submodule "LatexTemplates"]
 	path = LatexTemplates
 	url = https://github.com/ICI3D/LatexTemplates.git
+[submodule "texdeps"]
+	path = texdeps
+	url = https://github.com/dushoff/texdeps.git
+	branch = master

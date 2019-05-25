@@ -173,7 +173,7 @@ REP DIAGRAM SIR_model_family/sir.three.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Model taxonomy
+DAIDD PSLIDE Model taxonomy
 
 FIG taxon.jpg
 
@@ -331,6 +331,8 @@ LANDFIG SIR_model_family/comp0.pdf
 
 With individuality
 
+\vspace{-4ex}
+
 LANDFIG SIR_model_family/comp.pdf
 
 	Treating individuals as individuals can produce substantial oscillations
@@ -340,7 +342,7 @@ LANDFIG SIR_model_family/comp.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Model taxonomy
+DAIDD PSLIDE Model taxonomy
 
 FIG taxon.jpg
 
