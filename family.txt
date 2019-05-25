@@ -8,13 +8,15 @@ EXTRA
 
 	Nobody should hear it twice (DAIDD graduates should not be in this track)
 
+	Make a new spreadsheet tinyurl
+
 ----------------------------------------------------------------------
 
 NOFRAME
 
 \newcommand{\jdtitle}{Foundations of dynamic modeling:}
 \newcommand{\jdsub}{The SIR Model Family}
-\newcommand{\years}{2013--2018} 
+\newcommand{\years}{2013--\thisyear} 
 
 ----------------------------------------------------------------------
 
@@ -167,7 +169,7 @@ Spreadsheet implementation
 
 REP DIAGRAM SIR_model_family/sir.three.pdf
 
-\url{http://tinyurl.com/SIR-MMED-2018}
+\url{http://tinyurl.com/SIR-MMED-2019}
 
 ----------------------------------------------------------------------
 
@@ -210,6 +212,8 @@ PIC DBFIG 0.7 SIR_model_family/gd.png 0.8 SIR_model_family/R.png
 	Scripts are more transparent, less redundant
 
 	Spreadsheets are more intuitive for simple problems
+
+	I don't personally use spreadsheets for science, just teaching
 
 ----------------------------------------------------------------------
 

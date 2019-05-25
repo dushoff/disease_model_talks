@@ -12,7 +12,7 @@ target: $(target)
 
 ## makestuff
 
-Sources += Makefile .ignore 
+Sources += Makefile 
 Ignore += .gitignore
 
 msrepo = https://github.com/dushoff
@@ -47,7 +47,7 @@ alldirs += $(dirs)
 
 # make files
 
-Sources += Makefile .ignore README.md LICENSE.md notes.txt
+Sources += Makefile README.md LICENSE.md notes.txt
 imageDrop = ~/Dropbox/disease_model_lectures/
 
 -include $(ms)/newtalk.def
