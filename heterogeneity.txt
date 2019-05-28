@@ -5,6 +5,8 @@ EXTRA Todo
 
 * Look into figure paradigm (still getting webfigs from SIR_model_family, for example)
 
+PSLIDE overwritten
+
 ----------------------------------------------------------------------
 
 EXTRA MMED 2017 Notes (deleted those dealt with fully!)
@@ -256,6 +258,8 @@ FIG SIR_simulations/hiv_plot.Rout-4.pdf
 
 Homogeneous dynamics
 
+DOUBLEFIG SIR_simulations/hiv_plot.Rout-1.pdf SIR_simulations/hiv_plot.Rout-4.pdf
+
 	For many diseases, homogeneous models tend to predict:
 
 		Too high of an equilibrium, when matching growth rate
@@ -421,7 +425,7 @@ WFIG 0.8 SIR_model_family/simpson.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-Mid (50% infection)
+Late (50% infection)
 
 WFIG 0.8 SIR_model_family/simpson.Rout-3.pdf
 
@@ -467,8 +471,10 @@ Equilibrium analysis
 
 		Infectious pool moves looks more like the general population.
 
-	$\rightarrow$ lower proportion affected \emph{for a given value of
-	\Ro.}
+	$\rightarrow$ \emph{Given \Ro,} net effect of heterogeneity is to lower proportion affected
+
+	\emph{Given mean parameters,} net effect of heterogeneity could go either
+	way 
 
 ----------------------------------------------------------------------
 

@@ -17,3 +17,9 @@ DAIDD NULLSLIDE
 DAIDDONLY %!
 
 DFIG FROG
+
+PSLIDE NULLSLIDE
+draft final: ^DEFHEAD {%%}
+final: ^DEFHEAD {%%}
+draft: ^DEFHEAD {\sl %%}
+
